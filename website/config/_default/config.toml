@@ -1,0 +1,32 @@
+# FreeBSD website
+# $FreeBSD$
+
+baseURL = "https://carlavilla.gitlab.io/freebsd-hugo-website/"
+title = "The FreeBSD Project"
+copyright = "BSD 2-clause 'Simplified' License"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+theme = "beastie"
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+authors = [ "carlavilla@FreeBSD.org" ]
+
+[outputs]
+home = [ "HTML" ]
+page = [ "HTML" ]
+list = [ "HTML" ]
+single = [ "HTML" ]
+section = [ "HTML", "RSS" ]
+
+[outputFormats]
+[outputFormats.Calendar]
+BaseName = "calendar"
+IsHTML = true
+IsPlainText = false
+
+[outputFormats.RSS]
+MediaType = "application/rss+xml"
+BaseName = "feed"
+IsHTML = true
+IsPlainText = false
+noUgly = true
+Rel = "alternate"

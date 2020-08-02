@@ -1,0 +1,508 @@
+---
+title: "Download FreeBSD"
+sidenav: download
+---
+
+= Download FreeBSD
+
+[[choose-version]]
+[[choose-arch]]
+== Choosing an Architecture
+
+Most users of FreeBSD will have hardware for either the amd64, i386, or armv6 architectures.
+
+Modern PCs use the amd64 architecture, including those with Intel(R) branded processors. Computers with more than 3 GB of memory should use amd64. If the computer is an older, 32-bit only model, use i386. For embedded devices and single-board computers (SBC) such as the Raspberry Pi, Beagle Bone Black, Panda Board, and Zed Board, use the armv6 SD card image which supports ARMv6 and ARMv7 processors.
+
+All other users should reference the link:../platforms/[complete list] of supported FreeBSD platforms.
+
+[[choose-image]]
+== Choosing an Image
+
+The FreeBSD installer can be downloaded in a number of different formats including CD (disc1), DVD (dvd1), and Network Install (bootonly) sized ISO Disc Images, as well as regular and mini USB memory stick images. Recent versions of FreeBSD are also offered as prebuilt expandable Virtual Machine images, and as SD Card images for embedded platforms.
+
+[[help-statistics]]
+== FreeBSD Deployment Statistics
+
+While FreeBSD does not gather deployment statistics, having statistical information available is essential. Please consider installing the https://www.freshports.org/sysutils/bsdstats/[sysutils/bsdstats] package, which collects hardware and software statistics, helping developers understand how to best focus their efforts. The information collected is available at the http://bsdstats.org[bsdstats.org] website.
+
+
+[[download]]
+[[download-rel121]]
+== FreeBSD {{< param "releases.rel121Current" >}}-RELEASE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/releases/amd64/amd64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/releases/i386/i386/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[i386]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpcspe/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[powerpcspe]
+* https://download.FreeBSD.org/ftp/releases/sparc64/sparc64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[sparc64]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/README.txt[README]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel121Current" >}}-RELEASE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel121Current" >}}-RELEASE/i386/Latest/[i386]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel121Current" >}}-RELEASE/aarch64/Latest/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv6-RPI-B.img.xz[RPI-B]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-BANANAPI.img.xz[BANANAPI]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-BEAGLEBONE.img.xz[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-CUBIEBOARD.img.xz[CUBIEBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-CUBIEBOARD2.img.xz[CUBIEBOARD2]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-GENERICSD.img.xz[GENERICSD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-RPI2.img.xz[RPI2]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-PANDABOARD.img.xz[PANDABOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm-armv7-WANDBOARD.img.xz[WANDBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm64-aarch64-PINE64.img.xz[PINE64]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm64-aarch64-PINE64-LTS.img.xz[PINE64-LTS]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/FreeBSD-{{< param "releases.rel121Current" >}}-RELEASE-arm64-aarch64-RPI3.img.xz[RPI3]
+
+a|
+* link:../releases/#current[Released]: {{< param "releases.rel121CurrentDate" >}}
+* {{< params-releases-urls-absolute "uRel121Notes" "Release Notes">}}
+* {{< params-releases-urls-absolute "uRel121Readme" "Readme">}}
+* {{< params-releases-urls-absolute "uRel121Hardware" "Hardware Compatibility List">}}
+* {{< params-releases-urls-absolute "uRel121Installation" "Installation Instructions">}}
+* {{< params-releases-urls-absolute "uRel121Errata" "Errata">}}
+* {{< params-releases-urls-absolute "uRel121Signatures" "Signed Checksums">}}
+
+|===
+
+////
+== FreeBSD {{< param "releases.relCurrent" >}}-RELEASE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/releases/amd64/amd64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/releases/i386/i386/ISO-IMAGES/{{< param "releases.relCurrent" >}}/[i386]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc/ISO-IMAGES/{{< param "releases.relCurrent" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/releases/sparc64/sparc64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/[sparc64]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/README.txt[README]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.relCurrent" >}}-RELEASE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.relCurrent" >}}-RELEASE/i386/Latest/[i386]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.relCurrent" >}}-RELEASE/aarch64/Latest/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv6-RPI-B.img.xz[RPI-B]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-BANANAPI.img.xz[BANANAPI]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-BEAGLEBONE.img.xz[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-CUBIEBOARD.img.xz[CUBIEBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-CUBIEBOARD2.img.xz[CUBIEBOARD2]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-GENERICSD.img.xz[GENERICSD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-RPI2.img.xz[RPI2]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-PANDABOARD.img.xz[PANDABOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm-armv7-WANDBOARD.img.xz[WANDBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm64-aarch64-PINE64.img.xz[PINE64]
+* https://download.FreeBSD.org/ftp/releasesarm64/aarch64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm64-aarch64-PINE64-LTS.img.xz[PINE64-LTS]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.relCurrent" >}}/FreeBSD-{{< param "releases.relCurrent" >}}-RELEASE-arm64-aarch64-RPI3.img.xz[RPI3]
+
+a|
+* link:../releases/#current[Released]: {{< param "releases.relCurrentDate" >}}
+* {{< params-releases-urls-absolute "uRelNotes" "Release Notes">}}
+* {{< params-releases-urls-absolute "uRelReadme" "Readme">}}
+* {{< params-releases-urls-absolute "uRelHardware" "Hardware Compatibility List">}}
+* {{< params-releases-urls-absolute "uRelInstallation" "Installation Instructions">}}
+* {{< params-releases-urls-absolute "uRelErrata" "Errata">}}
+* {{< params-releases-urls-absolute "uRelSignatures" "Signed Checksums">}}
+
+|===
+////
+
+[[download-rel1]]
+== FreeBSD {{< param "releases.rel1Current" >}}-RELEASE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/releases/amd64/amd64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/releases/i386/i386/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[i386]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/releases/sparc64/sparc64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[sparc64]
+* https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/README.txt[README]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel1Current" >}}-RELEASE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel1Current" >}}-RELEASE/i386/Latest/[i386]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel1Current" >}}-RELEASE/aarch64/Latest/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-BANANAPI.img.xz[BANANAPI]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-BEAGLEBONE.img.xz[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-CUBIEBOARD.img.xz[CUBIEBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-CUBIEBOARD2.img.xz[CUBIEBOARD2]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-RPI-B.img.xz[RPI-B]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-RPI2.img.xz[RPI2]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-PANDABOARD.img.xz[PANDABOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/FreeBSD-{{< param "releases.rel1Current" >}}-RELEASE-arm-armv6-WANDBOARD.img.xz[WANDBOARD]
+
+a|
+* link:../releases/#current[Released]: {{< param "releases.rel1CurrentDate" >}}
+* {{< params-releases-urls-absolute "uRel1Notes" "Release Notes">}}
+* {{< params-releases-urls-absolute "uRel1Readme" "Readme">}}
+* {{< params-releases-urls-absolute "uRel1Hardware" "Hardware Compatibility List">}}
+* {{< params-releases-urls-absolute "uRel1Installation" "Installation Instructions">}}
+* {{< params-releases-urls-absolute "uRel1Errata" "Errata">}}
+* {{< params-releases-urls-absolute "uRel1Signatures" "Signed Checksums">}}
+
+|===
+
+////
+== FreeBSD {{< param "releases.rel2Current" >}}-RELEASE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/releases/amd64/amd64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/releases/i386/i386/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[i386]
+* https://download.FreeBSD.org/ftp/releases/ia64/ia64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[ia64]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/releases/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/releases/sparc64/sparc64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[sparc64]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/README.txt[README]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel2Current" >}}-RELEASE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.rel2Current" >}}-RELEASE/i386/Latest/[i386]
+
+a|
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/FreeBSD-{{< param "releases.rel2Current" >}}-RELEASE-arm-armv6-BEAGLEBONE.img.xz[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/FreeBSD-{{< param "releases.rel2Current" >}}-RELEASE-arm-armv6-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/FreeBSD-{{< param "releases.rel2Current" >}}-RELEASE-arm-armv6-GUMSTIX.img.xz[GUMSTIX]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/FreeBSD-{{< param "releases.rel2Current" >}}-RELEASE-arm-armv6-RPI-B.img.xz[RPI-B]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/FreeBSD-{{< param "releases.rel2Current" >}}-RELEASE-arm-armv6-PANDABOARD.img.xz[PANDABOARD]
+* https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/FreeBSD-{{< param "releases.rel2Current" >}}-RELEASE-arm-armv6-WANDBOARD.img.xz[WANDBOARD]
+
+a|
+* link:../releases/#current[Released]: {{< param "releases.rel2CurrentDate" >}}
+* {{< params-releases-urls-absolute "uRel2Notes" "Release Notes">}}
+* {{< params-releases-urls-absolute "uRel2Readme" "Readme">}}
+* {{< params-releases-urls-absolute "uRel2Hardware" "Hardware Compatibility List">}}
+* {{< params-releases-urls-absolute "uRel2Installation" "Installation Instructions">}}
+* {{< params-releases-urls-absolute "uRel2Errata" "Errata">}}
+* {{< params-releases-urls-absolute "uRel2Signatures" "Signed Checksums">}}
+
+|===
+////
+
+== Help With The Next FreeBSD Release
+
+Our developers and release engineers are working on the next release of FreeBSD; if you wish to help with testing, please download the latest build. Please note that these images are, by their very nature, intended for testing and should not be used in production environments.
+
+== FreeBSD {{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* link:https://download.FreeBSD.org/ftp/releases/amd64/amd64/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[amd64]
+* link:https://download.FreeBSD.org/ftp/releases/i386/i386/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[i386]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[armv6]
+* link:https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[aarch64]
+* link:https://download.FreeBSD.org/ftp/releases/powerpc/powerpc/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[powerpc]
+* link:https://download.FreeBSD.org/ftp/releases/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[powerpc64]
+* link:https://download.FreeBSD.org/ftp/releases/sparc64/sparc64/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/[sparc64]
+
+a|
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/README.txt[README]
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}/amd64/Latest/[amd64]
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}/i386/Latest/[i386]
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}/aarch64/Latest/[aarch64]
+
+a|
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-BANANAPI.img.xz[BANANAPI]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-BEAGLEBONE.img.xz[BEAGLEBONE]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-CUBIEBOARD.img.xz[CUBIEBOARD]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-CUBIEBOARD2.img.xz[CUBIEBOARD2]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-CUBOX-HUMMINGBOARD.img.xz[CUBOX/HUMMINGBOARD]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-RPI-B.img.xz[RPI-B]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-RPI2.img.xz[RPI2]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarelCurrent" >}}/FreeBSD-{{< param "releases.betarelCurrent" >}}-{{< param "releases.betarelVers" >}}-arm-armv6-WANDBOARD.img.xz[WANDBOARD]
+
+a|
+* link:../releases/{{< param "releases.betarelCurrent" >}}r/relnotes/[Release Notes]
+* link:../releases/{{< param "releases.betarelCurrent" >}}r/readme/[Readme]
+* link:../releases/{{< param "releases.betarelCurrent" >}}r/hardware/[Hardware Compatibility List]
+* link:../releases/{{< param "releases.betarelCurrent" >}}r/installation/[Installation Instructions]
+* link:../releases/{{< param "releases.betarelCurrent" >}}r/todo/[TODO List]
+* link:../releases/{{< param "releases.betarelCurrent" >}}r/signatures/[Signed Checksums]
+
+|===
+
+////
+== FreeBSD {{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* link:https://download.FreeBSD.org/ftp/releases/amd64/amd64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[amd64]
+* link:https://download.FreeBSD.org/ftp/releases/i386/i386/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[i386]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[armv6]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[armv7]
+* link:https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[arm64]
+* link:https://download.FreeBSD.org/ftp/releases/powerpc/powerpc/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[powerpc]
+* link:https://download.FreeBSD.org/ftp/releases/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[powerpc64]
+* link:https://download.FreeBSD.org/ftp/releases/powerpc/powerpcspe/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[powerpcspe]
+* link:https://download.FreeBSD.org/ftp/releases/sparc64/sparc64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/[sparc64]
+
+a|
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/README.txt[README]
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}/amd64/Latest/[amd64]
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}/i386/Latest/[i386]
+* link:https://download.FreeBSD.org/ftp/releases/VM-IMAGES/{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}/aarch64/Latest/[aarch64]
+
+a|
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv6/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv6-RPI-B.img.xz[RPI-B]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-BANANAPI.img.xz[BANANAPI]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-BEAGLEBONE.img.xz[BEAGLEBONE]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-CUBIEBOARD.img.xz[CUBIEBOARD]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-CUBIEBOARD2.img.xz[CUBIEBOARD2]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-RPI2.img.xz[RPI2]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-PANDABOARD.img.xz[PANDABOARD]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-WANDBOARD.img.xz[WANDBOARD]
+* link:https://download.FreeBSD.org/ftp/releases/arm/armv7/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm-armv7-GENERICSD.img.xz[GENERICSD]
+* link:https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm64-aarch64-GENERIC.img.xz[GENERIC]
+* link:https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm64-aarch64-RPI3.img.xz[RPI3]
+* link:https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm64-aarch64-PINE64.img.xz[PINE64]
+* link:https://download.FreeBSD.org/ftp/releases/arm64/aarch64/ISO-IMAGES/{{< param "releases.betarel2Current" >}}/FreeBSD-{{< param "releases.betarel2Current" >}}-{{< param "releases.betarel2Vers" >}}-arm64-aarch64-PINE64-LTS.img.xz[PINE64-LTS]
+
+a|
+* link:../releases/{{< param "releases.betarel2Current" >}}r/relnotes/[Release Notes]
+* link:../releases/{{< param "releases.betarel2Current" >}}r/readme/[Readme]
+* link:../releases/{{< param "releases.betarel2Current" >}}r/hardware/[Hardware Compatibility List]
+* link:../releases/{{< param "releases.betarel2Current" >}}r/installation/[Installation Instructions]
+* link:../releases/{{< param "releases.betarel2Current" >}}r/todo/[TODO List]
+* link:../releases/{{< param "releases.betarel2Current" >}}r/signatures/[Signed Checksums]
+
+|===
+////
+
+[[download-snapshots]]
+== Development Snapshots
+
+If you are interested in a purely experimental *snapshot* release of FreeBSD-CURRENT (AKA {{< param "releases.relHead" >}}-CURRENT), aimed at developers and bleeding-edge testers only, then please see the link:../snapshots/[FreeBSD Snapshot Releases] page. For more information about past, present and future releases in general, please visit the link:../releases/[release information page].
+
+== FreeBSD {{< param "releases.relHead" >}}-CURRENT
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/snapshots/amd64/amd64/ISO-IMAGES/{{< param "releases.relHead" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/i386/i386/ISO-IMAGES/{{< param "releases.relHead" >}}/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc/ISO-IMAGES/{{< param "releases.relHead" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.relHead" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpcspe/ISO-IMAGES/{{< param "releases.relHead" >}}/[powerpcspe]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.relHead" >}}/[armv6]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[armv7]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.relHead" >}}/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.relHead" >}}-CURRENT/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.relHead" >}}-CURRENT/i386/Latest/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.relHead" >}}-CURRENT/aarch64/Latest/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[BANANAPI]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[CUBIEBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[CUBIEBOARD2]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[CUBOX/HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[GENERICSD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[PANDABOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.relHead" >}}/[PINE64]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.relHead" >}}/[PINE64-LTS]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.relHead" >}}/[RPI-B]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[RPI2]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.relHead" >}}/[RPI3]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.relHead" >}}/[WANDBOARD]
+
+a|
+|===
+
+== FreeBSD {{< param "releases.rel121Current" >}}-STABLE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/snapshots/amd64/amd64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/i386/i386/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpcspe/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[powerpcspe]
+* https://download.FreeBSD.org/ftp/snapshots/sparc64/sparc64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[sparc64]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[armv6]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[armv7]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel121Current" >}}-STABLE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel121Current" >}}-STABLE/i386/Latest/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel121Current" >}}-STABLE/aarch64/Latest/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[BANANAPI]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[CUBIEBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[CUBIEBOARD2]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[CUBOX/HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[GENERICSD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[PANDABOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[PINE64]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[PINE64-LTS]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[RPI-B]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[RPI2]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[RPI3]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv7/ISO-IMAGES/{{< param "releases.rel121Current" >}}/[WANDBOARD]
+
+a|
+|===
+
+////
+== FreeBSD {{< param "releases.rel1Current" >}}-STABLE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/snapshots/amd64/amd64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/i386/i386/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/snapshots/sparc64/sparc64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[sparc64]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[armv6]
+* https://download.FreeBSD.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel1Current" >}}-STABLE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel1Current" >}}-STABLE/i386/Latest/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel1Current" >}}-STABLE/aarch64/Latest/[aarch64]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[BANANAPI]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[CUBIEBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[CUBIEBOARD2]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[CUBOX/HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[PANDABOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[RPI2]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[RPI-B]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel1Current" >}}/[WANDBOARD]
+
+a|
+* link:../relnotes/{{< param "releases.rel1CurrentMajor" >}}-STABLE/relnotes/article/[Release Notes]
+|===
+
+== FreeBSD {{< param "releases.rel2Current" >}}-STABLE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|Installer Images |Virtual Machine Images |SD Card Images |Documentation
+a|
+* https://download.FreeBSD.org/ftp/snapshots/amd64/amd64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/i386/i386/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[i386]
+* https://download.FreeBSD.org/ftp/snapshots/ia64/ia64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[ia64]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[powerpc]
+* https://download.FreeBSD.org/ftp/snapshots/powerpc/powerpc64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[powerpc64]
+* https://download.FreeBSD.org/ftp/snapshots/sparc64/sparc64/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[sparc64]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[armv6]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel2Current" >}}-STABLE/amd64/Latest/[amd64]
+* https://download.FreeBSD.org/ftp/snapshots/VM-IMAGES/{{< param "releases.rel2Current" >}}-STABLE/i386/Latest/[i386]
+
+a|
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[BEAGLEBONE]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[CUBOX/HUMMINGBOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[PANDABOARD]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[RPI-B]
+* https://download.FreeBSD.org/ftp/snapshots/arm/armv6/ISO-IMAGES/{{< param "releases.rel2Current" >}}/[WANDBOARD]
+
+a|
+* link:../relnotes/{{< param "releases.rel2CurrentMajor" >}}-STABLE/relnotes/article/[Release Notes]
+
+|===
+////
+
+If you plan on getting FreeBSD via HTTP or FTP, please check the listing of *{{< books "handbook" "mirror sites" "mirrors-ftp.html" >}}* in the Handbook to see if there is a site closer to you.
+
+[[install]]
+=== Install FreeBSD
+
+There are many options for installing FreeBSD, including installation from CD-ROM, DVD, USB Memory Stick or even directly using anonymous FTP, HTTP, or NFS. Please read through the {{< books "handbook" "FreeBSD installation guide" "bsdinstall.html" >}} before downloading the entire FreeBSD distribution.
+
+[[distribution]]
+=== Purchase FreeBSD Media
+
+FreeBSD can be acquired on CD-ROM or DVD from http://www.freebsdmall.com/[FreeBSD Mall], or one of the other {{< books "handbook" "CD-ROM and DVD Publishers" "mirrors.html" >}}.
+
+[[past]]
+=== Past Releases
+
+For downloading past releases, please visit the http://ftp-archive.FreeBSD.org/pub/FreeBSD-Archive/old-releases/[FTP archive].
+
+[[derived]]
+=== FreeBSD-derived Operating System Distributions
+
+FreeBSD is widely used as a building block for other commercial and open-source operating systems. The projects below are widely used and of particular interest to FreeBSD users.
+
+* https://www.freenas.org[FreeNAS] is an open source storage platform based on FreeBSD and supports sharing across Windows, Apple, and UNIX-like systems.
+* https://www.furybsd.org[FuryBSD] is a brand new, open source FreeBSD desktop. FuryBSD pays homage to desktop BSD projects of the past PC-BSD and TrueOS with its graphical interface and adds additional tools like a live, hybrid USB/DVD image. FuryBSD is completely free to use and distributed under the BSD license.
+* https://ghostbsd.org[GhostBSD] is derived from FreeBSD, GhostBSD uses the GTK environment to provide a beautiful looks and comfortable experience on the modern BSD platform offering a natural and native UNIX(R) work environment.
+* https://www.midnightbsd.org[MidnightBSD] is a BSD-derived operating system developed with desktop users in mind. It includes all the software you'd expect for your daily tasks: mail, web browsing, word processing, gaming, and much more.
+* http://www.pfsense.org[pfSense] is a FreeBSD based customized distribution tailored for use as a firewall and router.
+
+[[apps]]
+=== Applications and Utility Software
+
+==== The Ports Collection
+
+The FreeBSD Ports Collection is a diverse collection of utility and application software that has been ported to FreeBSD.
+
+See *{{< books "handbook" "Installing Applications: Packages and Ports" "ports.html" >}}* in the Handbook.
+
+* ftp://ftp.FreeBSD.org/pub/FreeBSD/ports/[Download the FreeBSD Ports Collection framework]
+* link:../ports/[Web interface to the Ports Collection]
+* http://www.freshports.org/[FreshPorts - a more advanced web interface to the Ports Collection]
+
+For information about how _you_ can contribute _your_ favorite piece of software to the Ports Collection, have a look at _{{< books "handbook" "The Porter's Handbook" >}}_ and the article _{{< articles "contributing" "Contributing to FreeBSD" >}}_.

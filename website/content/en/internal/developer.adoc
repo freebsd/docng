@@ -1,0 +1,41 @@
+---
+title: "Resources for FreeBSD Committers"
+sidenav: docs
+--- 
+
+= Resources for FreeBSD Committers
+
+== {{< articles "committers-guide" "Committers Guide" >}}
+
+This document is an overall guide for all new committers, including both technical details and policy details. For the former, see the chapters on {{< articles "committers-guide" "the Subversion VCS" "subversion-primer.html" >}}, the {{< articles "committers-guide" "Bugzilla" "bugzilla.html" >}} bug tracking system, and the {{< articles "committers-guide" "SSH Quick-Start Guide" "ssh.guide.html" >}}.
+
+It contains almost everything a new committer to the FreeBSD Project needs to know. See the Documentation Project Primer and the Ports Guide, below, for more info.
+
+== {{< books "fdp-primer" "FreeBSD Documentation Project Primer for New Contributors" >}}
+
+This primer covers everything you will need to know in order to start contributing to the FreeBSD Documentation Project, from the tools and software you will be using (both mandatory and recommended) to the philosophy behind the Documentation Project.
+
+== {{< books "porters-handbook" "FreeBSD Porter's Handbook" >}}
+
+A guide for FreeBSD ports committers. This includes the canonical {{< books "porters-handbook" "Table of __FreeBSD_version Values" "versions.html" >}}.
+
+== {{< books "fdp-primer" "How to build the FreeBSD Web Pages" "the-website-build.html" >}}.
+
+This document describes how to build and update the FreeBSD Web pages from the SVN repository by hand.
+
+== FreeBSD Projects
+
+* link:../../docproj/[FreeBSD Documentation Project]
+* link:../../releng/[FreeBSD Release Engineering]
+* link:../../platforms/[FreeBSD Hardware Platforms Projects]
+* link:../../projects/[FreeBSD Development Projects]
+
+== Other Resources
+
+* link:../../developers/cvs/[Source Code Repositories]
+* link:../../support/[Bug Reports]
+* link:../../security/[FreeBSD Security Information]
+* link:../../copyright/[Copyright]
+* http://wiki.FreeBSD.org[FreeBSD Wiki]
+
+link:..[FreeBSD Internal Home]

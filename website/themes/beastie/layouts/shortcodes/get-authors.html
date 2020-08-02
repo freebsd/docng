@@ -1,0 +1,23 @@
+{{ $key := (.Get 0) }}
+{{ $param := (.Get 1) }}
+{{ $data :=  index .Site.Data.authors $key }}
+
+{{ if eq $param "name" }}
+  {{ $data.name }}
+{{ end }}
+
+{{ if eq $param "email" }}
+  {{ $data.email }}
+{{ end }}
+
+{{ if eq $param "both" }}
+  {{ $data.name }} <<a href="mailto:{{ $data.email }}">{{ $data.email }}</a>>
+{{ end }}
+
+{{ if eq $param "members" }}
+  {{ delimit $data.members ", " }}
+{{ end }}
+
+{{ if eq $param "builders" }}
+  {{ delimit $data.builders ", " }}
+{{ end }}
