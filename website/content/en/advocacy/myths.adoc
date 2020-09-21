@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD Advocacy Project"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD Advocacy Project
 
@@ -70,7 +72,7 @@ You can. You just need to say in the documentation and source files where the co
 
 * http://www.dragonflybsd.org/[DragonflyBSD] started as a code fork from FreeBSD 4.X, but it has since its own user community and development goals.
 * https://wiki.gentoo.org/wiki/Gentoo_FreeBSD[Gentoo/FreeBSD] is an effort by the Gentoo Project to port their complete administration facilities to take advantage of the reliable FreeBSD kernel and userland. This project is purely incomplete and experimental.
-* {{< articles "nanobsd" "NanoBSD" >}} is another project to produce reduced versions of FreeBSD to put it on a Compact Flash card or other mass storage. It is also a part of the FreeBSD source tree, see /usr/src/tools/tools/nanobsd.
+* link:{nanobsd}[NanoBSD] is another project to produce reduced versions of FreeBSD to put it on a Compact Flash card or other mass storage. It is also a part of the FreeBSD source tree, see /usr/src/tools/tools/nanobsd.
 * https://www.furybsd.org[FuryBSD] is a brand new, open source FreeBSD desktop. FuryBSD pays homage to desktop BSD projects of the past PC-BSD and TrueOS with its graphical interface and adds additional tools like a live, hybrid USB/DVD image. FuryBSD is completely free to use and distributed under the BSD license.
 * https://ghostbsd.org[GhostBSD] is derived from FreeBSD, uses the GTK environment to provide a beautiful looks and comfortable experience on the modern BSD platform offering a natural and native UNIX(R) work environment.
 * https://www.midnightbsd.org[MidnightBSD] is a FreeBSD derived operating system developed with desktop users in mind. It includes all the software you'd expect for your daily tasks: mail, web browsing, word processing, gaming, and much more.

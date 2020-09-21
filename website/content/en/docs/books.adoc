@@ -1,7 +1,9 @@
 ---
 title: "Books and Articles Online"
 sidenav: docs
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = Books and Articles Online
 
@@ -17,133 +19,133 @@ Papers, presentations, and videos about FreeBSD are archived and catalogued on t
 
 === Books
 
-{{< books "dev-model" "A project model for the FreeBSD project" >}} (dev-model) +
+link:{dev-model}[A project model for the FreeBSD project] (dev-model) +
 A formal study of the organization of the FreeBSD project.
 
-{{< books "faq" "The FreeBSD FAQ" >}} (faq) +
+link:{faq}[The FreeBSD FAQ] (faq) +
 Frequently Asked Questions, and answers, covering all aspects of FreeBSD.
 
-{{< books "handbook" "The FreeBSD Handbook" >}} (handbook) +
+link:{handbook}[The FreeBSD Handbook] (handbook) +
 A constantly evolving, comprehensive resource for FreeBSD users.
 
-{{< books "developers-handbook" "The FreeBSD Developers' Handbook" >}} (developers-handbook) +
+link:{developers-handbook}[The FreeBSD Developers' Handbook] (developers-handbook) +
 For people who want to develop software for FreeBSD (and not just people who are developing FreeBSD itself).
 
-{{< books "arch-handbook" "The FreeBSD Architecture Handbook" >}} (arch-handbook) +
+link:{arch-handbook}[The FreeBSD Architecture Handbook] (arch-handbook) +
 For FreeBSD system developers. This book covers the architectural details of many important FreeBSD kernel subsystems.
 
-{{< books "porters-handbook" "The Porter's Handbook" >}} (porters-handbook) +
+link:{porters-handbook}[The Porter's Handbook] (porters-handbook) +
 Essential reading if you plan on providing a port of a third party piece of software.
 
-{{< books "design-44bsd" "Chapter 2 of 'The Design and Implementation of the 4.4BSD Operating System'" >}} (design-44bsd) +
+link:{design-44bsd}[Chapter 2 of 'The Design and Implementation of the 4.4BSD Operating System'] (design-44bsd) +
 Donated by Addison-Wesley, provides a design overview of 4.4BSD, from which FreeBSD was originally derived.
 
-{{< books "fdp-primer" "The FreeBSD Documentation Project Primer for New Contributors" >}} (fdp-primer) +
+link:{fdp-primer}[The FreeBSD Documentation Project Primer for New Contributors] (fdp-primer) +
 Everything you need to know in order to start contributing to the FreeBSD Documentation Project.
 
 [[ARTICLES]]
 === Articles
 
-{{< articles "bsdl-gpl" "Why you should use a BSD style license for your Open Source Project" >}} (bsdl-gpl) +
+link:{bsdl-gpl}[Why you should use a BSD style license for your Open Source Project] (bsdl-gpl) +
 Describes the benefits of releasing code under a BSD license.
 
-{{< articles "building-products" "Building Products with FreeBSD" >}} (building-products) +
+link:{building-products}[Building Products with FreeBSD] (building-products) +
 How FreeBSD can help you build a better product.
 
-{{< articles "committers-guide" "The Committer's Guide" >}} (committers-guide) +
+link:{committers-guide}[The Committer's Guide] (committers-guide) +
 Introductory information for FreeBSD committers.
 
-{{< articles "contributing" "Contributing to FreeBSD" >}} (contributing) +
+link:{contributing}[Contributing to FreeBSD] (contributing) +
 How to contribute to the FreeBSD Project.
 
-{{< articles "contributors" "The List of FreeBSD Contributors" >}} (contributors) +
+link:{contributors}[The List of FreeBSD Contributors] (contributors) +
 A list of organizations and individuals who have helped enhance FreeBSD.
 
-{{< articles "cups" "CUPS on FreeBSD" >}} (cups) +
+link:{cups}[CUPS on FreeBSD] (cups) +
 How to setup CUPS with FreeBSD.
 
-{{< articles "explaining-bsd" "Explaining BSD" >}} (explaining-bsd) +
+link:{explaining-bsd}[Explaining BSD] (explaining-bsd) +
 An answer to the question "What is BSD?"
 
-{{< articles "filtering-bridges" "Filtering Bridges" >}} (filtering-bridges) +
+link:{filtering-bridges}[Filtering Bridges] (filtering-bridges) +
 Configuring firewalls and filtering on FreeBSD hosts acting as bridges rather than routers.
 
-{{< articles "fonts" "Fonts and FreeBSD" >}} (fonts) +
+link:{fonts}[Fonts and FreeBSD] (fonts) +
 A description of the various font technologies in FreeBSD, and how to use them with different programs.
 
-{{< articles "freebsd-questions" "How to get the best results from the FreeBSD-questions mailing list" >}} (freebsd-questions) +
+link:{freebsd-questions}[How to get the best results from the FreeBSD-questions mailing list] (freebsd-questions) +
 Tips and tricks to help you maximize the chances of getting useful information from the -questions mailing list.
 
-{{< articles "freebsd-update-server" "Build Your Own FreeBSD Update Server" >}} (freebsd-update-server) +
+link:{freebsd-update-server}[Build Your Own FreeBSD Update Server] (freebsd-update-server) +
 Using a FreeBSD Update server allows a system administrator to perform fast updates for a number of machines from a local mirror.
 
-{{< articles "geom-class" "Writing a GEOM Class" >}} (geom-class) +
+link:{geom-class}[Writing a GEOM Class] (geom-class) +
 A guide to GEOM internals, and writing your own class.
 
-{{< articles "gjournal-desktop" "Implementing UFS journaling on a desktop PC" >}} (gjournal-desktop) +
+link:{gjournal-desktop}[Implementing UFS journaling on a desktop PC] (gjournal-desktop) +
 A guide to create UFS partitions configured with journaling for desktop use.
 
-{{< articles "hubs" "Mirroring FreeBSD" >}} (hubs) +
+link:{hubs}[Mirroring FreeBSD] (hubs) +
 The all in one guide for mirroring the FreeBSD website, FTP servers, and more.
 
-{{< articles "ipsec-must" "Independent Verification of IPsec Functionality in FreeBSD" >}} (ipsec-must) +
+link:{ipsec-must}[Independent Verification of IPsec Functionality in FreeBSD] (ipsec-must) +
 A method for experimentally verifying IPsec functionality.
 
-{{< articles "ldap-auth" "LDAP Authentication" >}} (ldap-auth) +
+link:{ldap-auth}[LDAP Authentication] (ldap-auth) +
 A practical guide about setting up an LDAP server on FreeBSD and how to use it for authenticating users.
 
-{{< articles "leap-seconds" "FreeBSD Support for Leap Seconds" >}} (leap-seconds) +
+link:{leap-seconds}[FreeBSD Support for Leap Seconds] (leap-seconds) +
 A short description of how leap seconds are handled on FreeBSD.
 
-{{< articles "linux-emulation" "Linux emulation in FreeBSD" >}} (linux-emulation) +
+link:{linux-emulation}[Linux emulation in FreeBSD] (linux-emulation) +
 A technical description about the internals of the Linux emulation layer in FreeBSD.
 
-{{< articles "linux-users" "FreeBSD Quickstart Guide for Linux Users" >}} (linux-users) +
+link:{linux-users}[FreeBSD Quickstart Guide for Linux Users] (linux-users) +
 An introductionary guide for the users that came from Linux.
 
-{{< articles "mailing-list-faq" "Frequently Asked Questions About The FreeBSD Mailing Lists" >}} (mailing-list-faq) +
+link:{mailing-list-faq}[Frequently Asked Questions About The FreeBSD Mailing Lists] (mailing-list-faq) +
 How to best use the mailing lists, such as how to help avoid frequently-repeated discussions.
 
-{{< articles "nanobsd" "Introduction to NanoBSD" >}} (nanobsd) +
+link:{nanobsd}[Introduction to NanoBSD] (nanobsd) +
 Information about the NanoBSD tools, which can be used to create FreeBSD system images for embedded applications, suitable for use on a Compact Flash card (or other mass storage medium).
 
-{{< articles "new-users" "FreeBSD First Steps" >}} (new-users) +
+link:{new-users}[FreeBSD First Steps] (new-users) +
 For people coming to FreeBSD and &unix; for the first time.
 
-{{< articles "pam" "Pluggable Authentication Modules" >}} (pam) +
+link:{pam}[Pluggable Authentication Modules] (pam) +
 A guide to the PAM system and modules under FreeBSD.
 
-{{< articles "pgpkeys" "OpenPGP Keys" >}} (pgpkeys) +
+link:{pgpkeys}[OpenPGP Keys] (pgpkeys) +
 All of the OpenPGP keys for FreeBSD.
 
-{{< articles "port-mentor-guidelines" "Port Mentor Guidelines" >}} (port-mentor-guidelines) +
+link:{port-mentor-guidelines}[Port Mentor Guidelines] (port-mentor-guidelines) +
 Guidelines for new and/or potential port mentors and mentees.
 
-{{< articles "pr-guidelines" "FreeBSD Problem Report Handling Guidelines" >}} (pr-guidelines) +
+link:{pr-guidelines}[FreeBSD Problem Report Handling Guidelines] (pr-guidelines) +
 Recommended practices for handling FreeBSD problem reports.
 
-{{< articles "problem-reports" "Writing FreeBSD Problem Reports" >}} (problem-reports) +
+link:{problem-reports}[Writing FreeBSD Problem Reports] (problem-reports) +
 How to best formulate and submit a problem report to the FreeBSD Project.
 
-{{< articles "rc-scripting" "Practical rc.d scripting in BSD" >}} (rc-scripting) +
+link:{rc-scripting}[Practical rc.d scripting in BSD] (rc-scripting) +
 A guide to writing new rc.d scripts and understanding those already written.
 
-{{< articles "releng" "FreeBSD Release Engineering" >}} (releng) +
+link:{releng}[FreeBSD Release Engineering] (releng) +
 Describes the approach used by the FreeBSD release engineering team to make production quality releases of the FreeBSD Operating System. It describes the tools available for those interested in producing customized FreeBSD releases for corporate rollouts or commercial productization.
 
-{{< articles "remote-install" "Remote Installation of the FreeBSD Operating System without a Remote Console" >}} (remote-install) +
+link:{remote-install}[Remote Installation of the FreeBSD Operating System without a Remote Console] (remote-install) +
 Describes the remote installation of the FreeBSD operating system when the console of the remote system is unavailable.
 
-{{< articles "serial-uart" "Serial and UART devices" >}} (serial-uart) +
+link:{serial-uart}[Serial and UART devices] (serial-uart) +
 Detailed information about the use of serial ports on FreeBSD, including several multi-port serial cards.
 
-{{< articles "solid-state" "FreeBSD and Solid State Devices" >}} (solid-state) +
+link:{solid-state}[FreeBSD and Solid State Devices] (solid-state) +
 The use of solid state disk devices in FreeBSD.
 
-{{< articles "vinum" "The vinum Volume Manager" >}} (vinum) +
+link:{vinum}[The vinum Volume Manager] (vinum) +
 Using gvinum to create RAID arrays.
 
-{{< articles "vm-design" "Design elements of the FreeBSD VM system" >}} (vm-design) +
+link:{vm-design}[Design elements of the FreeBSD VM system] (vm-design) +
 An easy to follow description of the design of the FreeBSD virtual memory system.
 
 == Articles on other web sites

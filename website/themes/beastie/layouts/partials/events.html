@@ -21,7 +21,7 @@
               <a href="{{.Site.BaseURL | relLangURL }}events/#event{{ dateFormat "2006-01" .endDate }}:{{ $eventsCounter }}">
                 {{ .name }}
                 <br />
-                ({{ .city }}, {{ .country }})
+                {{ if or (.city) (.country) }}({{end}}{{ if .city }}{{ .city }},{{ end }} {{ if .country }}{{ .country }}{{ end }}{{ if or (.city) (.country) }}){{end}}
               </a>
             </p>
             {{ $eventsCounter = add $eventsCounter 1 }}

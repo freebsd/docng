@@ -1,0 +1,79 @@
+---
+title: FreeBSD Porter's Handbook
+authors: 
+  - author: The FreeBSD Documentation Project
+copyright: 2000-2020 The FreeBSD Documentation Project
+releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/books/porters-handbook/book.xml 53742 2020-01-03 04:51:06Z linimon $" 
+trademarks: ["freebsd", "sun", "unix", "general"] 
+---
+
+= FreeBSD Porter's Handbook
+:doctype: book
+:toc: macro
+:toclevels: 2
+:sectnumlevels: 6
+:icons: font
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
+:sectnums:
+:partnums:
+:chapter-signifier: Chapter
+:part-signifier: Part
+:source-highlighter: rouge
+:experimental:
+:skip-front-matter:
+:figure-caption: Figure
+
+ifeval::["{backend}" == "html5"]
+include::share/mirrors.adoc[]
+include::share/authors.adoc[]
+include::share/releases.adoc[]
+include::share/en/mailing-lists.adoc[]
+include::share/en/teams.adoc[]
+include::share/en/urls.adoc[]
+:chapters-path: content/en/books/porters-handbook/
+endif::[]
+
+ifeval::["{backend}" == "pdf"]
+include::../../../../share/mirrors.adoc[]
+include::../../../../share/authors.adoc[]
+include::../../../../share/releases.adoc[]
+include::../../../../share/en/mailing-lists.adoc[]
+include::../../../../share/en/teams.adoc[]
+include::../../../../share/en/urls.adoc[]
+:chapters-path:
+endif::[]
+
+ifeval::["{backend}" == "epub3"]
+include::../../../../share/mirrors.adoc[]
+include::../../../../share/authors.adoc[]
+include::../../../../share/releases.adoc[]
+include::../../../../share/en/mailing-lists.adoc[]
+include::../../../../share/en/teams.adoc[]
+include::../../../../share/en/urls.adoc[]
+:chapters-path:
+endif::[]
+
+'''
+
+toc::[]
+
+include::{chapters-path}porting-why/chapter.adoc[leveloffset=+1]
+include::{chapters-path}new-port/chapter.adoc[leveloffset=+1]
+include::{chapters-path}quick-porting/chapter.adoc[leveloffset=+1]
+include::{chapters-path}slow-porting/chapter.adoc[leveloffset=+1]
+include::{chapters-path}makefiles/chapter.adoc[leveloffset=+1]
+include::{chapters-path}special/chapter.adoc[leveloffset=+1]
+include::{chapters-path}flavors/chapter.adoc[leveloffset=+1]
+include::{chapters-path}plist/chapter.adoc[leveloffset=+1]
+include::{chapters-path}pkg-files/chapter.adoc[leveloffset=+1]
+include::{chapters-path}testing/chapter.adoc[leveloffset=+1]
+include::{chapters-path}upgrading/chapter.adoc[leveloffset=+1]
+include::{chapters-path}security/chapter.adoc[leveloffset=+1]
+include::{chapters-path}porting-dads/chapter.adoc[leveloffset=+1]
+include::{chapters-path}porting-samplem/chapter.adoc[leveloffset=+1]
+include::{chapters-path}order/chapter.adoc[leveloffset=+1]
+include::{chapters-path}keeping-up/chapter.adoc[leveloffset=+1]
+include::{chapters-path}uses/chapter.adoc[leveloffset=+1]
+include::{chapters-path}versions/chapter.adoc[leveloffset=+1]

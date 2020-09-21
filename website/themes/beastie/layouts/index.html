@@ -10,7 +10,7 @@
           <div id="txtfrontjournalblock">
             <br />»
             <span id="txtfrontjournallink">
-            {{ i18n "getThe" }} <a href="http://www.freebsdjournal.com/" title={{ i18n "journal" }}>{{ i18n "journal" }}</a>
+            {{ i18n "getThe" }} <a href="https://freebsdfoundation.org/our-work/journal/" title={{ i18n "journal" }}>{{ i18n "journal" }}</a>
             </span>
           </div>
         </div>
@@ -39,21 +39,22 @@
             <ul id="frontreleaseslist">
               <li>
                 {{ i18n "production" }}:
-                <a href={{ "releases/12.1r/announce/" | absLangURL }}>{{ $.Param "releases.rel121Current" }}</a>,
-                <a href={{ "releases/11.3r/announce/" | absLangURL }}>{{ $.Param "releases.rel113Current" }}</a>
+                <a href={{ index $.Site.Data.releases "u-rel121-announce" }}>{{ index $.Site.Data.releases "rel121-current" }}</a>,
+                <a href={{ index $.Site.Data.releases "u-rel114-announce" }}>{{ index $.Site.Data.releases "rel114-current" }}</a>,
+                <a href={{ index $.Site.Data.releases "u-rel113-announce" }}>{{ index $.Site.Data.releases "rel113-current" }}</a>
               </li>
-              {{ $betaUpcoming := $.Param "releases.betaUpcoming" }}
+              {{ $betaUpcoming := index $.Site.Data "beta-upcoming" }}
               {{ if ne $betaUpcoming "IGNORE" }}
                 <li>
                   {{ i18n "upcoming" }}:
-                  <a href={{ "releases/11.4r/schedule/" | absLangURL }}>{{ $.Param "releases.betarelCurrent" }}</a>
+                  <a href={{ index $.Site.Data.releases "u-betarel-schedule" }}>{{ index $.Site.Data.releases "betarel-current" }}</a>
                 </li>
               {{ end }}
-              {{ $beta2Upcoming := $.Param "releases.beta2Upcoming" }}
+              {{ $beta2Upcoming := index $.Site.Data.releases "beta2-upcoming" }}
               {{ if ne $beta2Upcoming "IGNORE" }}
                 <li>
                   {{ i18n "upcoming" }}:
-                  <a href={{ "releases/12.2r/schedule/" | absLangURL }}>{{ $.Param "releases.betarel2Current" }}</a>
+                  <a href={{ index $.Site.Data.releases "u-betarel2-schedule" }}>{{ index $.Site.Data.releases "betarel2-current" }}</a>
                 </li>
               {{ end }}
               <li>

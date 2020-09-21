@@ -1,0 +1,18 @@
+# FreeBSD documentation
+# $FreeBSD$
+
+baseURL = "https://carlavilla.gitlab.io/freebsd-hugo-documentation/"
+title = "The FreeBSD Project"
+copyright = "BSD 2-clause 'Simplified' License"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+theme = "beastie"
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+authors = [ "carlavilla@FreeBSD.org" ]
+
+[outputs]
+home = [ "HTML" ]
+page = [ "HTML" ]
+list = [ "HTML" ]
+single = [ "HTML" ]
+section = [ "HTML" ]

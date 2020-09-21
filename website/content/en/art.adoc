@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD Art"
 sidenav: about
---- 
+---
+
+include::share/authors.adoc[]
 
 = FreeBSD Art
 
@@ -19,7 +21,7 @@ This page contains miscellaneous FreeBSD "art". Suggestions for additions can be
 image:../gifs/daemon-phk.png[BSD Daemon,width=191,height=208]
 
 [.center]
-Created by {{< get-authors "phk" "name">}} +
+Created by {phk-name} +
 Source: https://svnweb.freebsd.org/base/head/share/examples/BSD_daemon/[/usr/share/examples/BSD_daemon/] on FreeBSD systems.
 
 [.center]
@@ -61,7 +63,7 @@ image:../gifs/freebsd-advert.gif[Adv Banner1,width=455,height=60] image:../gifs/
 
 The "Powered by FreeBSD" logos above may be link:../gifs/powerlogo.gif[downloaded] and displayed on personal or commercial home pages served by FreeBSD machines. Use of this logo or the likeliness of the link:../copyright/daemon/[BSD Daemons] for profitable gain requires the consent of mailto:taob@risc.org[Brian Tao] (creator of the "power" logo) and mailto:mckusick@mckusick.com[Marshall Kirk McKusick] (copyright holder for the BSD Daemon image).
 
-{{< get-authors "phk" "name">}}'s rendering of the BSD Daemon is released under "THE BEER-WARE LICENSE". See the https://svnweb.freebsd.org/base/head/share/examples/BSD_daemon/README?view=markup[README] for more information.
+{phk-name}'s rendering of the BSD Daemon is released under "THE BEER-WARE LICENSE". See the https://svnweb.freebsd.org/base/head/share/examples/BSD_daemon/README?view=markup[README] for more information.
 
 [[trademark]]
 == Trademarks

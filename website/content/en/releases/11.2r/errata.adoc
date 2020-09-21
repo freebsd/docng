@@ -3,6 +3,8 @@ title: "FreeBSD 11.2-RELEASE Errata"
 sidenav: download
 ---
 
+include::share/en/urls.adoc[]
+
 = FreeBSD 11.2-RELEASE Errata
 
 == Abstract
@@ -124,7 +126,7 @@ Building `emulators/virtualbox-ose-kmod` from the https://www.FreeBSD.org/cgi/ma
 +
 See PR https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=228535[228535] for more information.
 * [2018-06-26] It was discovered after the `releng/11.2` branch was tagged for FreeBSD 11.2-RELEASE that a few device drivers were missing from the link:../hardware/[hardware] page. The missing drivers, https://www.FreeBSD.org/cgi/man.cgi?query=alc&sektion=4&manpath=freebsd-release-ports[alc(4)], https://www.FreeBSD.org/cgi/man.cgi?query=cxgbev&sektion=4&manpath=freebsd-release-ports[cxgbev(4)], https://www.FreeBSD.org/cgi/man.cgi?query=liquidio&sektion=4&manpath=freebsd-release-ports[liquidio(4)], and https://www.FreeBSD.org/cgi/man.cgi?query=mos&sektion=4&manpath=freebsd-release-ports[mos(4)] were added to the 11-STABLE link:../support/[hardware page].
-* [2018-06-26] The URL to the instructions for source-based upgrades in `UPDATING` incorrectly points to a page that no longer exists. The correct URL is {{< books "handbook" "https://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/makeworld.html" "makeworld.html" >}}.
+* [2018-06-26] The URL to the instructions for source-based upgrades in `UPDATING` incorrectly points to a page that no longer exists. The correct URL is link:{handbook}#makeworld[https://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/makeworld.html].
 * [2018-06-27] The announcement email for FreeBSD 11.2 incorrectly states the `ocs_fw(4)` driver had been added; this should have stated https://www.FreeBSD.org/cgi/man.cgi?query=ocs_fc&sektion=4&manpath=freebsd-release-ports[ocs_fc(4)].
 * [2018-06-28] An issue had been reported after the release of FreeBSD 11.2 with `x11/nvidia-driver` installed from the upstream package mirrors via https://www.FreeBSD.org/cgi/man.cgi?query=pkg&sektion=8&manpath=freebsd-release-ports[pkg(8)].
 +

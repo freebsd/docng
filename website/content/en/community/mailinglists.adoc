@@ -1,7 +1,9 @@
 ---
 title: "Mailing Lists"
 sidenav: community
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = Mailing Lists
 
@@ -13,7 +15,7 @@ You can link:../../search/#mailinglists[search] or https://www.FreeBSD.org/mail/
 
 == English Mailing lists
 
-The English speaking mailing lists are {{< books "handbook" "listed in the FreeBSD Handbook" "eresources-mail.html" >}}.
+The English speaking mailing lists are link:{handbook}#eresources-mail[listed in the FreeBSD Handbook].
 
 == Non-English Mailing lists
 

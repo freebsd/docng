@@ -8,6 +8,8 @@ releaseNext: "12.2-RELEASE"
 releaseType: "release"
 ---
 
+include::share/en/urls.adoc[]
+
 = FreeBSD {{% param releaseCurrent %}} Release Notes
 
 == Abstract
@@ -25,7 +27,7 @@ The RELEASE.TYPE distribution to which these release notes apply represents the 
 
 The RELEASE.TYPE distribution to which these release notes apply represents a point along the RELEASE.BRANCH development branch between RELEASE.PREV and the future RELEASE.NEXT. Information regarding pre-built, binary RELEASE.TYPE distributions along this branch can be found at .
 
-This distribution of FreeBSD RELEASE.CURRENT is a RELEASE.TYPE distribution. It can be found at or any of its mirrors. More information on obtaining this (or other) RELEASE.TYPE distributions of FreeBSD can be found in the {{< books "handbook" "'Obtaining FreeBSD' appendix" "mirrors.html" >}} to the {{< books "handbook" "FreeBSD Handbook" >}}.
+This distribution of FreeBSD RELEASE.CURRENT is a RELEASE.TYPE distribution. It can be found at or any of its mirrors. More information on obtaining this (or other) RELEASE.TYPE distributions of FreeBSD can be found in the link:{handbook}#mirrors[Obtaining FreeBSD' appendix] to the link:{handbook}[FreeBSD Handbook].
 
 All users are encouraged to consult the release errata before installing FreeBSD. The errata document is updated with "late-breaking" information discovered late in the release cycle or after the release. Typically, it contains information on known bugs, security advisories, and corrections to documentation. An up-to-date copy of the errata for FreeBSD RELEASE.CURRENT can be found on the FreeBSD Web site.
 

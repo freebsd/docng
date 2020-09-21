@@ -1,7 +1,9 @@
 ---
 title: "Contacting FreeBSD"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = Contacting FreeBSD
 
@@ -13,7 +15,7 @@ link:../community/mailinglists[Mailing lists] are the primary support channel fo
 
 == Questions about the contents of this WWW server...
 
-Questions or suggestions about our documentation ({{< books "handbook" "Handbook" >}}, {{< books "faq" "FAQ" >}}, link:../docs[Books & Articles], and so forth) should be addressed to the FreeBSD Documentation Project mailing list, freebsd-doc@FreeBSD.org.
+Questions or suggestions about our documentation (link:{handbook}[Handbook], link:{faq}[FAQ], link:../docs[Books & Articles], and so forth) should be addressed to the FreeBSD Documentation Project mailing list, freebsd-doc@FreeBSD.org.
 
 == Snail mail, phone and fax
 

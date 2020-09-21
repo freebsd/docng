@@ -1,7 +1,10 @@
 ---
 title: "FreeBSD Internal Pages"
 sidenav: docs
---- 
+---
+
+include::share/authors.adoc[]
+include::share/en/urls.adoc[]
 
 = FreeBSD Internal Pages
 
@@ -11,7 +14,7 @@ This page contains pointers to pages documenting aspects of the FreeBSD project 
 
 There are various projects which lie link:../projects/[outside the mainstream development path]. A number of groups are working on the 'cutting edge' to expand FreeBSD's range of capabilities in new directions.
 
-Here is an overview of the {{< articles "freebsd-releng" "FreeBSD Release Engineering Process" >}}.
+Here is an overview of the link:{freebsd-releng}[FreeBSD Release Engineering Process].
 
 And here you will find the link:../releng/[schedules for upcoming official releases of FreeBSD].
 
@@ -21,9 +24,9 @@ To avoid chaos with a project this large spread out all over the globe, there ha
 
 == People
 
-The FreeBSD Project Staff consists of link:../administration[teams, groups and individuals] with designated project roles and areas of responsibility and the {{< articles "contributors" "developers" "staff-committers.html" >}}. By following the links, one will find a list of them, as well as explanations of who is responsible for what.
+The FreeBSD Project Staff consists of link:../administration[teams, groups and individuals] with designated project roles and areas of responsibility and the link:{contributors}#staff-committers[developers]. By following the links, one will find a list of them, as well as explanations of who is responsible for what.
 
-You can read here core's link:hats[Hat Term Limits Policy] and some guidelines from {{< get-authors "imp" "name">}} on link:working-with-hats[how to work with hats].
+You can read here core's link:hats[Hat Term Limits Policy] and some guidelines from {imp-name} on link:working-with-hats[how to work with hats].
 
 == Resources
 

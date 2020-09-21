@@ -3,13 +3,15 @@ title: "FreeBSD Security Vulnerability Reporting Information"
 sidenav: support
 ---
 
+include::share/authors.adoc[]
+
 = FreeBSD Security Vulnerability Reporting Information
 
 == Table of contents
 
-* <<how,How and where to report a FreeBSD security issue>>
-* <<sec,Information about the FreeBSD Security Officer>>
-* <<pol,Information handling policies>>
+* <<how, How and where to report a FreeBSD security issue>>
+* <<sec, Information about the FreeBSD Security Officer>>
+* <<pol, Information handling policies>>
 * link:../#sup[Supported FreeBSD Releases]
 * link:../unsupported[Unsupported FreeBSD Releases]
 
@@ -42,10 +44,10 @@ In order that the FreeBSD Project may respond to vulnerability reports in a time
 
 [cols=",",]
 |===
-|{{< get-authors "gordon" "both">}} |Security Officer
-|{{< get-authors "emaste" "both">}} |Deputy Security Officer
-|{{< get-authors "delphij" "both">}} |Security Officer Emeritus
-|{{< get-authors "des" "both">}} |Security Officer Emeritus
+|{gordon} |Security Officer
+|{emaste} |Deputy Security Officer
+|{delphij} |Security Officer Emeritus
+|{des} |Security Officer Emeritus
 |===
 
 The Security Officer is supported by the link:../../administration/#t-secteam[FreeBSD Security Team], mailto:secteam@FreeBSD.org[<secteam@FreeBSD.org>], a small group of committers vetted by the Security Officer.

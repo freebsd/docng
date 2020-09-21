@@ -3,6 +3,8 @@ title: "FreeBSD 11.0-RELEASE README"
 sidenav: download
 ---
 
+include::share/en/urls.adoc[]
+
 = FreeBSD 11.0-RELEASE README
 
 == Abstract
@@ -55,16 +57,16 @@ FreeBSD may be obtained in a variety of ways. This section focuses on those ways
 
 FreeBSD -RELEASE distributions may be ordered on CDROM or DVD from several publishers. This is frequently the most convenient way to obtain FreeBSD for new installations, as it provides a convenient way to quickly reinstall the system if necessary. Some distributions include some of the optional, precompiled "packages" from the FreeBSD Ports Collection, or other extra material.
 
-A list of the CDROM and DVD publishers known to the project are listed in the {{< books "handbook" "'Obtaining FreeBSD'" "mirrors.html" >}} appendix to the Handbook.
+A list of the CDROM and DVD publishers known to the project are listed in the link:{handbook}#mirrors[Obtaining FreeBSD] appendix to the Handbook.
 
 [[ftp]]
 == FTP
 
 You can use FTP to retrieve FreeBSD and any or all of its optional packages from `ftp://ftp.FreeBSD.org/`, which is the official FreeBSD release site, or any of its "mirrors".
 
-Lists of locations that mirror FreeBSD can be found in the {{< books "handbook" "FTP Sites" "mirrors-ftp.html" >}} section of the Handbook. Finding a close (in networking terms) mirror from which to download the distribution is highly recommended.
+Lists of locations that mirror FreeBSD can be found in the link:{handbook}#mirrors-ftp[FTP Sites] section of the Handbook. Finding a close (in networking terms) mirror from which to download the distribution is highly recommended.
 
-Additional mirror sites are always welcome. Contact `<freebsd-admin@FreeBSD.org>` for more details on becoming an official mirror site. You can also find useful information for mirror sites at the {{< articles "hubs" "Mirroring FreeBSD" >}} article.
+Additional mirror sites are always welcome. Contact `<freebsd-admin@FreeBSD.org>` for more details on becoming an official mirror site. You can also find useful information for mirror sites at the link:{hubs}[Mirroring FreeBSD] article.
 
 Mirrors generally contain the ISO images generally used to create a CDROM of a FreeBSD release. They usually also contain floppy disk images (for applicable platforms), as well as the files necessary to do an installation over the network. Finally mirrors sites usually contain a set of packages for the most current release.
 
@@ -97,7 +99,7 @@ The preferred method to submit bug reports from a machine with Internet connecti
 
 Note that http://www.FreeBSD.org/cgi/man.cgi?query=send-pr&sektion=1[send-pr(1)] is deprecated.
 
-For more information, {{< articles "problem-reports" "'Writing FreeBSD Problem Reports'" >}}, available on the FreeBSD Web site, has a number of helpful hints on writing and submitting effective problem reports.
+For more information, link:{problem-reports}["Writing FreeBSD Problem Reports"], available on the FreeBSD Web site, has a number of helpful hints on writing and submitting effective problem reports.
 
 [[seealso]]
 == Further Reading
@@ -130,15 +132,15 @@ In some cases, manual pages are written to give information on particular topics
 [[booksarticles]]
 == Books and Articles
 
-Two highly-useful collections of FreeBSD-related information, maintained by the FreeBSD Project, are the FreeBSD Handbook and FreeBSD FAQ (Frequently Asked Questions document). On-line versions of the {{< books "handbook" "Handbook" >}} and {{< books "faq" "FAQ" >}} are always available from the link:../../../docs/[FreeBSD Documentation page] or its mirrors. If you install the [.filename]`doc` distribution set, you can use a Web browser to read the Handbook and FAQ locally. In particular, note that the Handbook contains a step-by-step guide to installing FreeBSD.
+Two highly-useful collections of FreeBSD-related information, maintained by the FreeBSD Project, are the FreeBSD Handbook and FreeBSD FAQ (Frequently Asked Questions document). On-line versions of the link:{handbook}[Handbook] and link:{faq}[FAQ] are always available from the link:../../../docs/[FreeBSD Documentation page] or its mirrors. If you install the [.filename]`doc` distribution set, you can use a Web browser to read the Handbook and FAQ locally. In particular, note that the Handbook contains a step-by-step guide to installing FreeBSD.
 
 A number of on-line books and articles, also maintained by the FreeBSD Project, cover more-specialized, FreeBSD-related topics. This material spans a wide range of topics, from effective use of the mailing lists, to dual-booting FreeBSD with other operating systems, to guidelines for new committers. Like the Handbook and FAQ, these documents are available from the FreeBSD Documentation Page or in the `doc` distribution set.
 
-A listing of other books and documents about FreeBSD can be found in the {{< books "handbook" "bibliography" "bibliography.html" >}} of the FreeBSD Handbook. Because of FreeBSD's strong UNIX(R) heritage, many other articles and books written for UNIX(R) systems are applicable as well, some of which are also listed in the bibliography.
+A listing of other books and documents about FreeBSD can be found in the link:{handbook}#bibliography[bibliography] of the FreeBSD Handbook. Because of FreeBSD's strong UNIX(R) heritage, many other articles and books written for UNIX(R) systems are applicable as well, some of which are also listed in the bibliography.
 
 [[acknowledgements]]
 == Acknowledgments
 
-FreeBSD represents the cumulative work of many hundreds, if not thousands, of individuals from around the world who have worked countless hours to bring about this release. For a complete list of FreeBSD developers and contributors, please see {{< articles "contributors" "'Contributors to FreeBSD'" >}} on the FreeBSD Web site or any of its mirrors.
+FreeBSD represents the cumulative work of many hundreds, if not thousands, of individuals from around the world who have worked countless hours to bring about this release. For a complete list of FreeBSD developers and contributors, please see link:{contributors}["Contributors to FreeBSD"] on the FreeBSD Web site or any of its mirrors.
 
 Special thanks also go to the many thousands of FreeBSD users and testers all over the world, without whom this release simply would not have been possible.

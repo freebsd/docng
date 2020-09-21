@@ -1,7 +1,9 @@
 ---
 title: "Marketing Materials"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = Marketing Materials
 
@@ -11,8 +13,8 @@ This page contains presentations, white papers, and other marketing materials fo
 
 Thinking of using FreeBSD in a project? Finding it hard to convince your boss, the CTO, the CEO? Read through these real life examples of FreeBSD successes with shipping products, then give them to the decision makers at your company.
 
-* {{< articles "explaining-bsd" "Explaining BSD" >}}
-* {{< articles "building-products" "Building Products with FreeBSD" >}}
+* link:{explaining-bsd}[Explaining BSD]
+* link:{building-products}[Building Products with FreeBSD]
 
 == Presentations
 

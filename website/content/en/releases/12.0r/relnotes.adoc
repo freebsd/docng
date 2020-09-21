@@ -8,6 +8,8 @@ releaseNext: "13.0-RELEASE"
 releaseType: "release"
 ---
 
+include::share/en/urls.adoc[]
+
 = FreeBSD {{% param releaseCurrent %}} Release Notes
 
 == Abstract
@@ -66,7 +68,7 @@ The {{% param releaseType %}} distribution to which these release notes apply re
 
 The {{% param releaseType %}} distribution to which these release notes apply represents a point along the {{% param releaseBranch %}} development branch between {{% param releasePrev %}} and the future {{% param releaseNext %}}. Information regarding pre-built, binary {{% param releaseType %}} distributions along this branch can be found at https://www.FreeBSD.org/releases/.
 
-This distribution of FreeBSD {{% param releaseCurrent %}} is a {{% param releaseType %}} distribution. It can be found at https://www.FreeBSD.org/releases/ or any of its mirrors. More information on obtaining this (or other) {{% param releaseType %}} distributions of FreeBSD can be found in the {{< books "handbook" "'Obtaining FreeBSD' appendix" "mirrors.html" >}} to the {{< books "handbook" "FreeBSD Handbook" >}}.
+This distribution of FreeBSD {{% param releaseCurrent %}} is a {{% param releaseType %}} distribution. It can be found at https://www.FreeBSD.org/releases/ or any of its mirrors. More information on obtaining this (or other) {{% param releaseType %}} distributions of FreeBSD can be found in the link:{handbook}#mirrors[Obtaining FreeBSD' appendix] to the link:{handbook}[FreeBSD Handbook].
 
 All users are encouraged to consult the release errata before installing FreeBSD. The errata document is updated with "late-breaking" information discovered late in the release cycle or after the release. Typically, it contains information on known bugs, security advisories, and corrections to documentation. An up-to-date copy of the errata for FreeBSD {{% param releaseCurrent %}} can be found on the FreeBSD Web site.
 

@@ -1,11 +1,13 @@
 ---
 title: "FreeBSD GNOME Project: How To Make a Port"
 sidenav: gnome
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD GNOME Project: How To Make a Port
 
-This document assumes that you already know how the port system works, and therefore only provides GNOME-specific hints and tips. General instructions can be found in the {{< books "porters-handbook" "FreeBSD Porter's Handbook" >}}.
+This document assumes that you already know how the port system works, and therefore only provides GNOME-specific hints and tips. General instructions can be found in the link:{porters-handbook}[FreeBSD Porter's Handbook].
 
 == Example Makefile
 
@@ -124,7 +126,7 @@ INSTALLS_OMF="yes"
 
 == GConf Schema Installation
 
-GConf is the XML-based database that virtually all GNOME applications use for storing their settings. This database is defined by installed schema files that are used to generate `%gconf.xml` key files. Previously, these schema files and `%gconf.xml` key files were listed in the port's `pkg-plist`. Since this proved to be problematic, handling of GConf schemas was changed to something similar to that of {{< books "porters-handbook" "MANn" >}} files. That is, for each schema file installed by your port, you must have the following listed in the `Makefile`:
+GConf is the XML-based database that virtually all GNOME applications use for storing their settings. This database is defined by installed schema files that are used to generate `%gconf.xml` key files. Previously, these schema files and `%gconf.xml` key files were listed in the port's `pkg-plist`. Since this proved to be problematic, handling of GConf schemas was changed to something similar to that of link:{porters-handbook}[MANn] files. That is, for each schema file installed by your port, you must have the following listed in the `Makefile`:
 
 ....
 GCONF_SCHEMAS=  my_app.schemas my_app2.schemas my_app3.schemas

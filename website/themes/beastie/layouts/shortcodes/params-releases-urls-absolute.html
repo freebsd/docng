@@ -1,3 +1,0 @@
-{{ $url := index .Site.Params.releases (.Get 0) }}
-
-<a href={{ $url | absLangURL }}>{{ .Get 1 }}</a>

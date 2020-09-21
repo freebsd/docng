@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD 10.1-RELEASE Announcement"
 sidenav: download
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD 10.1-RELEASE Announcement
 
@@ -76,7 +78,7 @@ Any additional mirror sites will be labeled ftp2, ftp3 and so on.
 
 More information about FreeBSD mirror sites can be found at:
 
-* `{{< books "handbook" "http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html" "mirrors-ftp.html" >}}`
+* `link:{handbook}#mirrors-ftp[http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html]`
 
 For instructions on installing FreeBSD or updating an existing machine to 10.0-RELEASE please see:
 

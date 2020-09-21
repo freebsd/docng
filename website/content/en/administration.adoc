@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD Project Administration and Management"
 sidenav: about
---- 
+---
+
+include::share/authors.adoc[]
 
 ////
 NOTE: If any alias listed on this page is modified in the
@@ -16,7 +18,7 @@ then this page must be updated.
 This page lists teams, groups and individuals within the FreeBSD project with designated project roles and areas of responsibility, along with brief descriptions and contact information.
 
 * Project Management
-** <<t-core,Core Team>>
+** <<t-core, Core Team>>
 ** <<t-doceng, Documentation Engineering Team>>
 ** <<t-portmgr, Port Management Team>>
 ** <<t-ports-secteam, Ports Security Team>>
@@ -53,43 +55,42 @@ This page lists teams, groups and individuals within the FreeBSD project with de
 == FreeBSD Core Team <core@FreeBSD.org>
 
 The FreeBSD Core Team constitutes the project's "Board of Directors", responsible for deciding the project's overall goals and direction as well as managing specific areas of the FreeBSD project landscape. The Core Team is elected by the active developers in the project.
-
-* {{< get-authors "allanjude" "both">}} (Clusteradm Liaison)
-* {{< get-authors "bcr" "both">}} (Foundation Liaison)
-* {{< get-authors "brooks" "both">}} (Security Team Liaison)
-* {{< get-authors "hrs" "both">}} (Doceng Team Liaison)
-* {{< get-authors "jeff" "both">}}
-* {{< get-authors "jhb" "both">}} (Bugmeister and Release Engineering Team Liaison)
-* {{< get-authors "kmoore" "both">}}
-* {{< get-authors "seanc" "both">}} (CI and Portmgr Team Liaison)
-* {{< get-authors "imp" "both">}} (Code-of-Conduct Committee Liaison)
+* {bapt} (Clusteradm Liaison)
+* {emaste} (GIT Transition WG and Security Team Liason)
+* {gnn} (Foundation Liaison)
+* {hrs} (Code-of-Conduct Committee Liaison)
+* {kevans} (Portmgr Team Liaison)
+* {markj} (Bugmeister and CI Team Liaison)
+* {scottl} (Release Engineering Team Liaison)
+* {seanc} (Doceng Team Liaison)
+* {imp} (GIT Transition WG Liaison)
 
 [[t-doceng]]
 == FreeBSD Documentation Engineering Team <doceng@FreeBSD.org>
 
 The FreeBSD Documentation Engineering Team is responsible for defining and following up documentation goals for the committers in the Documentation project. The doceng team charter describes the duties and responsibilities of the Documentation Engineering Team in greater detail.
 
-* {{< get-authors "gjb" "both">}}
-* {{< get-authors "wblock" "both">}}
-* {{< get-authors "blackend" "both">}}
-* {{< get-authors "gabor" "both">}}
-* {{< get-authors "bcr" "both">}}
-* {{< get-authors "hrs" "both">}}
-* {{< get-authors "ryusuke" "both">}}
-* {{< get-authors "0mp" "both">}} (Secretary)
+* {gjb}
+* {wblock}
+* {blackend}
+* {gabor}
+* {bcr}
+* {hrs}
+* {ryusuke}
+* {0mp} (Secretary)
 
 [[t-portmgr]]
 == FreeBSD Port Management Team <portmgr@FreeBSD.org>
 
 The primary responsibility of the FreeBSD Port Management Team is to ensure that the FreeBSD Ports Developer community provides a ports collection that is functional, stable, up-to-date and full-featured. Its secondary responsibility is to coordinate among the committers and developers who work on it. The portmgr team charter describes the duties and responsibilities of the Port Management Team in greater detail.
 
-* {{< get-authors "adamw" "both">}}
-* {{< get-authors "antoine" "both">}}
-* {{< get-authors "bapt" "both">}} (Core Team Liaison)
-* {{< get-authors "bdrewery" "both">}} (Release Engineering Team Liaison)
-* {{< get-authors "mat" "both">}} (Cluster Administration Team Liaison)
-* {{< get-authors "rene" "both">}} (Secretary)
-* {{< get-authors "swills" "both">}}
+* {adamw}
+* {antoine}
+* {bapt} (Core Team Liaison)
+* {bdrewery} (Release Engineering Team Liaison)
+* {mat} (Cluster Administration Team Liaison)
+* {rene} (Secretary)
+* {swills}
 
 '''
 
@@ -98,20 +99,20 @@ The primary responsibility of the FreeBSD Port Management Team is to ensure that
 
 The primary responsibility of the FreeBSD Port Security Team is to provide rapid response to security incidents that affects the FreeBSD ports collection and protect the FreeBSD user community by keeping the community informed of bugs, exploits, popular attacks, and other risks. More details are available on the Wiki page.
 
-* {{< get-authors "des" "both">}}
-* {{< get-authors "amdmi3" "both">}}
-* {{< get-authors "eadler" "both">}}
-* {{< get-authors "rea" "both">}}
-* {{< get-authors "jgh" "both">}}
-* {{< get-authors "joneum" "both">}}
-* {{< get-authors "miwi" "both">}}
-* {{< get-authors "zi" "both">}}
-* {{< get-authors "simon" "both">}}
-* {{< get-authors "sbz" "both">}}
-* {{< get-authors "swills" "both">}}
-* {{< get-authors "riggs" "both">}}
-* {{< get-authors "wxs" "both">}}
-* {{< get-authors "delphij" "both">}}
+* {des}
+* {amdmi3}
+* {eadler}
+* {rea}
+* {jgh}
+* {joneum}
+* {miwi}
+* {zi}
+* {simon}
+* {sbz}
+* {swills}
+* {riggs}
+* {wxs}
+* {delphij}
 
 '''
 
@@ -120,23 +121,23 @@ The primary responsibility of the FreeBSD Port Security Team is to provide rapid
 
 The Primary Release Engineering Team is responsible for setting and publishing release schedules for official project releases of FreeBSD, announcing code freezes and maintaining `releng/*` branches, among other things. The release engineering team charter describes the duties and responsibilities of the Primary Release Engineering Team in greater detail.
 
-* {{< get-authors "gjb" "both">}} (Lead)
-* {{< get-authors "kib" "both">}}
-* {{< get-authors "bdrewery" "both">}}
-* {{< get-authors "blackend" "both">}}
-* {{< get-authors "delphij" "both">}}
-* {{< get-authors "hrs" "both">}}
-* {{< get-authors "glebius" "both">}}
-* {{< get-authors "marius" "both">}} (Deputy Lead)
+* {gjb} (Lead)
+* {kib}
+* {bdrewery}
+* {blackend}
+* {delphij}
+* {cperciva} (Deputy Lead)
+* {hrs}
+* {glebius}
 
 [[t-re-builder]]
 == Builders Release Engineering Team <re-builders@FreeBSD.org>
 
 The builders release engineering team is responsible for building and packaging FreeBSD releases on the various supported platforms.
 
-* {{< get-authors "marcel" "both">}}
-* {{< get-authors "nyan" "both">}}
-* {{< get-authors "nwhitehorn" "both">}}
+* {marcel}
+* {nyan}
+* {nwhitehorn}
 
 '''
 
@@ -145,25 +146,25 @@ The builders release engineering team is responsible for building and packaging 
 
 The FreeBSD Donations Team is responsible for responding to donations offers, establishing donation guidelines and procedures, and coordinating donation offers with the FreeBSD developer community. A more detailed description of the duties of the Donations Team is available on the FreeBSD Donations Liaison page.
 
-* {{< get-authors "gahr" "both">}}
-* {{< get-authors "bhughes" "both">}}
-* {{< get-authors "adridg" "both">}}
+* {gahr}
+* {bhughes}
+* {adridg}
 
 [[t-secteam]]
 == Security Team <secteam@FreeBSD.org>
 
 The FreeBSD Security Team (headed by the Security Officer) is responsible for keeping the community aware of bugs, exploits and security risks affecting the FreeBSD src and ports trees, and to promote and distribute information needed to safely run FreeBSD systems. Furthermore, it is responsible for resolving software bugs affecting the security of FreeBSD and issuing security advisories. The FreeBSD Security Officer Charter describes the duties and responsibilities of the Security Officer in greater detail.
 
-* {{< get-authors "gordon" "both">}} (Officer)
-* {{< get-authors "delphij" "both">}} (Officer Emeritus, Release Engineering Team Liaison)
-* {{< get-authors "des" "both">}} (Officer Emeritus)
-* {{< get-authors "gjb" "both">}} (Cluster Administrators Team Liaison)
-* {{< get-authors "emaste" "both">}} (Officer Deputy)
-* {{< get-authors "brooks" "both">}} (Core Team Liaison)
-* {{< get-authors "bz" "both">}}
-* {{< get-authors "gnn" "both">}}
-* {{< get-authors "miwi" "both">}}
-* {{< get-authors "philip" "both">}}
+* {gordon} (Officer)
+* {delphij} (Officer Emeritus, Release Engineering Team Liaison)
+* {des} (Officer Emeritus)
+* {gjb} (Cluster Administrators Team Liaison)
+* {emaste} (Officer Deputy)
+* {brooks} (Core Team Liaison)
+* {bz}
+* {gnn}
+* {miwi}
+* {philip}
 
 [[t-vendor]]
 == Vendor Relations <vendor-relations@FreeBSD.org>
@@ -177,21 +178,21 @@ Vendor Relations is responsible for handling email from hardware and software ve
 
 The FreeBSD Core Team Secretary is a non-voting member of the Core Team, responsible for documenting the work done by core, keeping track of the core agenda, contacting non-core members on behalf of core, sending mail to core, and interfacing with the admin team for committer/account approval. The Core Team Secretary is also responsible for writing and sending out monthly status reports to the FreeBSD Developer community, containing a summary of core's latest decisions and actions.
 
-* {{< get-authors "jrm" "both">}}
+* {bofh}
 
 [[t-doceng-secretary]]
 == Documentation Engineering Team Secretary <doceng-secretary@FreeBSD.org>
 
 The FreeBSD Documentation Engineering Team Secretary is a non-voting member of the Documentation Engineering Team, responsible for documenting the work done by doceng, keeping track of voting procedures, and to be an interface to the other teams, especially the admin and Core teams.
 
-* {{< get-authors "0mp" "both">}}
+* {0mp}
 
 [[t-portmgr-secretary]]
 == Port Management Team Secretary <portmgr-secretary@FreeBSD.org>
 
 The FreeBSD Port Management Team Secretary is a non-voting member of the Port Management Team, responsible for documenting the work done by portmgr, keeping track of voting procedures, and to be an interface to the other teams, especially the admin and Core teams. The Port Management Team Secretary is also responsible for writing and sending out monthly status reports to the FreeBSD Developer community, containing a summary of portmgr's latest decisions and actions.
 
-* {{< get-authors "rene" "both">}}
+* {rene}
 
 '''
 
@@ -214,26 +215,26 @@ Email sent to the Backups Team is currently forwarded to the Cluster Administrat
 
 The Bugmeisters are responsible for ensuring that the problem report software is in working order, that the entries are correctly categorised and that there are no invalid entries.
 
-* {{< get-authors "eadler" "both">}}
-* {{< get-authors "mva" "both">}}
-* {{< get-authors "gavin" "both">}}
-* {{< get-authors "koobs" "both">}}
+* {eadler}
+* {mva}
+* {gavin}
+* {koobs}
 
 [[t-clusteradm]]
 == Cluster Administrators <admins@>
 
 The Cluster Administrators consists of the people responsible for maintaing the machines and services that the project relies on for its distributed work and communication. Issues concerning the projects infrastructure or setting up new machines should be directed to them. This team is led by the lead cluster administrator whose duties and responsbilities are described in the cluster administration charter in greater detail.
 
-* {{< get-authors "allanjude" "both">}}
-* {{< get-authors "brd" "both">}}
-* {{< get-authors "dhw" "both">}}
-* {{< get-authors "gavin" "both">}}
-* {{< get-authors "gjb" "both">}}
-* {{< get-authors "lwhsu" "both">}}
-* {{< get-authors "peter" "both">}} (Lead)
-* {{< get-authors "sbruno" "both">}}
-* {{< get-authors "simon" "both">}}
-* {{< get-authors "zi" "both">}}
+* {allanjude}
+* {brd}
+* {dhw}
+* {gavin}
+* {gjb}
+* {lwhsu}
+* {peter}
+* {sbruno}
+* {simon}
+* {zi} (Lead)
 
 [[t-dnsadm]]
 == DNS Administrators <dnsadm@>
@@ -247,34 +248,35 @@ E-mail to the DNS Administrators is currently forwarded to the Cluster Administr
 
 The Forum Administrators maintain the FreeBSD Project's Internet forum, located at https://forums.freebsd.org/ and lead the group of moderators who work to ensure the relevance and quality of the forum's content.
 
-* {{< get-authors "brd" "both">}}
-* {{< get-authors "danger" "both">}}
-* {{< get-authors "dutchdaemon" "both">}}
-* {{< get-authors "lme" "both">}}
-* {{< get-authors "wblock" "both">}}
+* {brd}
+* {danger}
+* {dutchdaemon}
+* {lme}
+* {wblock}
 
 [[t-github-automation]]
 == Repository Automated Mirroring to GitHub Coordinators <github-automation@FreeBSD.org>
 
 The GitHub Automation team oversees the export of FreeBSD source code repository content to the read-only repository instances on GitHub
 
-* {{< get-authors "koobs" "both">}}
-* {{< get-authors "mva" "both">}}
-* {{< get-authors "robak" "both">}}
-* {{< get-authors "rodrigc" "both">}}
-* {{< get-authors "uqs" "both">}}
+* {koobs}
+* {mva}
+* {robak}
+* {rodrigc}
+* {uqs}
 
 [[t-jenkins-admin]]
 == Jenkins Continuous Integration Testing Administrators <jenkins-admin@FreeBSD.org>
 
 The Jenkins Administrators maintain the Continuous Integration and testing infrastructure for The FreeBSD Project. This includes maintaining the Jenkins instance and the jobs that run builds and execute tests.
 
-* {{< get-authors "bapt" "both">}}
-* {{< get-authors "brd" "both">}}
-* {{< get-authors "brooks" "both">}}
-* {{< get-authors "lwhsu" "both">}}
-* {{< get-authors "seanc" "both">}} (Core Team Liaison)
-* {{< get-authors "swills" "both">}}
+* {bapt}
+* {brd}
+* {brooks}
+* {lwhsu}
+* {markj} (Core Team Liaison)
+* {seanc}
+* {swills}
 
 [[t-mirror-admin]]
 == FTP/WWW Mirror Site Coordinators <mirror-admin@FreeBSD.org>
@@ -283,22 +285,22 @@ The FTP/WWW Mirror Site Coordinators coordinate all the FTP/WWW mirror site admi
 
 E-mail to the Mirror Site Coordinators is currently forwarded to the Cluster Administrators with the addition of:
 
-* {{< get-authors "kuriyama" "both">}}
+* {kuriyama}
 
 [[t-phabric-admin]]
 == Phabricator Code Review Application Administrators <phabric-admin@FreeBSD.org>
 
 The Phabricator Administrators are responsible for maintaining the FreeBSD's instance of the Phabricator on-line code review tool located at https://reviews.freebsd.org/
 
-* {{< get-authors "allanjude" "both">}}
-* {{< get-authors "bofh" "both">}}
-* {{< get-authors "eadler" "both">}}
-* {{< get-authors "emaste" "both">}}
-* {{< get-authors "jtl" "both">}}
-* {{< get-authors "lwhsu" "both">}}
-* {{< get-authors "mat" "both">}}
-* {{< get-authors "miwi" "both">}}
-* {{< get-authors "pi" "both">}}
+* {allanjude}
+* {bofh}
+* {eadler}
+* {emaste}
+* {jtl}
+* {lwhsu}
+* {mat}
+* {miwi}
+* {pi}
 
 For any problems regarding Phabricator, please open a bug report and select "Services" and then "Code Review".
 
@@ -307,12 +309,12 @@ For any problems regarding Phabricator, please open a bug report and select "Ser
 
 The Postmaster Team is responsible for mail being correctly delivered to the committers' email address, ensuring that the mailing lists work, and should take measures against possible disruptions of project mail services, such as having troll-, spam- and virus-filters.
 
-* {{< get-authors "krion" "both">}}
-* {{< get-authors "ler" "both">}}
-* {{< get-authors "philip" "both">}}
-* {{< get-authors "pi" "both">}}
-* {{< get-authors "rea" "both">}}
-* {{< get-authors "zi" "both">}}
+* {krion}
+* {ler}
+* {philip}
+* {pi}
+* {rea}
+* {zi}
 
 [[t-subversion]]
 == Subversion Administrators <svnadm@>
@@ -328,14 +330,14 @@ The FreeBSD Webmaster Team is appointed by FreeBSD Documentation Engineering Tea
 
 Email to the Webmaster Team is currently forwarded to the Documentation Engineering team with the addition of:
 
-* {{< get-authors "wosch" "both">}}
+* {wosch}
 
 [[t-wiki]]
 == Wiki Admin Team <wiki-admin@FreeBSD.org>
 
 The FreeBSD Wiki Team is responsible for keeping the FreeBSD Wiki site up and running. They also shape the overall design and content structure.
 
-* {{< get-authors "gavin" "both">}}
-* {{< get-authors "linimon" "both">}}
-* {{< get-authors "theraven" "both">}}
-* {{< get-authors "koobs" "both">}}
+* {gavin}
+* {linimon}
+* {theraven}
+* {koobs}

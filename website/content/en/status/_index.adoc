@@ -5,7 +5,7 @@ sidenav: about
 
 = FreeBSD Status Reports
 
-== Next Quarterly Status Report submissions (April - June) due: July 1st, 2020
+== Next Quarterly Status Report submissions (July - September) due: October 1st, 2020
 
 Submit your entries as Pull Requests from your fork of https://github.com/freebsd/freebsd-quarterly[FreeBSD Quarterly Status Reports GitHub repo] or submit them via e-mail to quarterly-submissions@FreeBSD.org, using the link:report-sample.md[Markdown template].
 
@@ -23,6 +23,7 @@ These status reports may be reproduced in whole or in part, as long as the sourc
 
 == 2020
 
+* link:report-2020-04-2020-06/[April, 2020 - June, 2020]
 * link:report-2020-01-2020-03/[January, 2020 - March, 2020]
 
 == 2019

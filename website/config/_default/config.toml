@@ -10,6 +10,8 @@ theme = "beastie"
 disableKinds = [ "taxonomy", "taxonomyTerm" ]
 authors = [ "carlavilla@FreeBSD.org" ]
 
+staticDir = ["static", "shared"]
+
 [outputs]
 home = [ "HTML" ]
 page = [ "HTML" ]

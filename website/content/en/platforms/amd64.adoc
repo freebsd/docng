@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD/amd64 Project"
 sidenav: developers
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD/amd64 Project
 
@@ -20,7 +22,7 @@ The Intel vPro(TM), Intel Celeron D (some models since "Prescott"), Intel Centri
 
 FreeBSD/amd64 runs in 64-bit multiuser mode, in both Uniprocessor and Multiprocessor mode.
 
-The AMD64 platform is a {{< articles "committers-guide" "Tier 1" "archs.html" >}} FreeBSD platform.
+The AMD64 platform is a link:{committers-guide}#archs[Tier 1] FreeBSD platform.
 
 == FreeBSD/amd64 Specific Resources
 

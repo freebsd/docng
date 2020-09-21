@@ -1,7 +1,10 @@
 ---
 title: "Release Information"
 sidenav: download
---- 
+---
+
+include::share/releases.adoc[]
+include::share/en/urls.adoc[]
 
 = Release Information
 
@@ -21,14 +24,14 @@ Complete information about the release date and the estimated End-Of-Life (EOL) 
 
 === Production Release
 
-*Release {{< param "releases.rel121Current" >}}* ({{< param "releases.rel121CurrentDate" >}}) _{{< params-releases-urls-absolute "uRel121Announce" "Announcement">}} : {{< params-releases-urls-absolute "uRel121Notes" "Release Notes">}} : {{< params-releases-urls-absolute "uRel121Installation" "Installation Instructions">}} : {{< params-releases-urls-absolute "uRel121Hardware" "Hardware Compatibility List">}} : {{< params-releases-urls-absolute "uRel121Readme" "Readme">}} : {{< params-releases-urls-absolute "uRel121Errata" "Errata">}} : {{< params-releases-urls-absolute "uRel121Signatures" "Signed Checksums">}}_
+*Release {rel121-current}* ({rel121-current-date}) _link:{u-rel121-announce}[Announcement] : link:{u-rel121-notes}[Release Notes] : link:{u-rel121-installation}[Installation Instructions] : link:{u-rel121-hardware}[Hardware Compatibility List] : link:{u-rel121-readme}[Readme] : link:{u-rel121-errata}[Errata] : link:{u-rel121-signatures}[Signed Checksums]_
 
-*Release {{< param "releases.rel113Current" >}}* ({{< param "releases.rel113CurrentDate" >}}) _{{< params-releases-urls-absolute "uRel113Announce" "Announcement">}} : {{< params-releases-urls-absolute "uRel113Notes" "Release Notes">}} : {{< params-releases-urls-absolute "uRel113Installation" "Installation Instructions">}} : {{< params-releases-urls-absolute "uRel113Hardware" "Hardware Notes">}} : {{< params-releases-urls-absolute "uRel113Readme" "Readme">}} : {{< params-releases-urls-absolute "uRel113Errata" "Errata">}} : {{< params-releases-urls-absolute "uRel113Signatures" "Checksums">}}_
+*Release {rel113-current}* ({rel113-current-date}) _link:{u-rel113-announce}[Announcement] : link:{u-rel113-notes}[Release Notes] : link:{u-rel113-installation}[Installation Instructions] : link:{u-rel113-hardware}[Hardware Notes] : link:{u-rel113-readme}[Readme] : link:{u-rel113-errata}[Errata] : link:{u-rel113-signatures}[Checksums]_
 
 === Legacy Release
 
 ////
-*Release {{< param "releases.rel2Current" >}}* ({{< param "releases.rel2CurrentDate" >}}) _{{< params-releases-urls-absolute "uRel2Announce" "Announcement">}} : {{< params-releases-urls-absolute "uRel2Notes" "Release Notes">}} : {{< params-releases-urls-absolute "uRel2Installation" "Installation Instructions">}} : {{< params-releases-urls-absolute "uRel2Hardware" "Hardware Notes">}} : {{< params-releases-urls-absolute "uRel2Readme" "Readme">}} : {{< params-releases-urls-absolute "uRel2Errata" "Errata">}} : {{< params-releases-urls-absolute "uRel2Signatures" "Checksums">}}_
+*Release {rel112-current}* ({rel112-current-date}) _link:{u-rel112-announce}[Announcement] : link:{u-rel112-notes}[Release Notes] : link:{u-rel112-installation}[Installation Instructions] : link:{u-rel112-hardware}[Hardware Notes] : link:{u-rel112-readme}[Readme] : link:{u-rel112-errata}[Errata] : link:{u-rel112-signatures}[Checksums]_
 ////
 
 [[future]]
@@ -36,7 +39,7 @@ Complete information about the release date and the estimated End-Of-Life (EOL) 
 
 For the schedule of upcoming releases, or for more information about the release engineering process, please visit the link:../releng/[Release Engineering] page.
 
-The latest snapshots from our {{< books "handbook" "FreeBSD-STABLE" "current-stable.html#stable" >}} and {{< books "handbook" "FreeBSD-CURRENT" "current-stable.html#current" >}} branches are also available. Please see link:../where/[Getting FreeBSD] for details.
+The latest snapshots from our link:{handbook}#stable[FreeBSD-STABLE] and link:{handbook}#current[FreeBSD-CURRENT] branches are also available. Please see link:../where/[Getting FreeBSD] for details.
 
 [[prior-unsupported]]
 == Prior Releases Which Have Reached End-Of-Life

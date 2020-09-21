@@ -1,0 +1,193 @@
+# Sort events by start date, with more recent events earlier in the file
+# $FreeBSD$
+year = 2020
+
+[[events]]
+id = "fosdem-freebsd-devsummit"
+name = "FreeBSD mini-DevSummit FOSDEM 2020"
+url = "https://wiki.freebsd.org/DevSummit/202002"
+startDate = "2020-01-31"
+endDate = "2020-01-31"
+countryCode = "BE"
+country = "Belgium"
+city = "Brussels"
+site = "Hotel NH Brussels Carrefour de l'Europe"
+description = "Join FreeBSD Developers and Vendors for a one-day summit to be held in conjunction with FOSDEM '20 in Brussels, Belgium. The summit will consist of discussion sessions and is by-invitation only."
+
+[[events]]
+id = "fosdem-2020"
+name = "FOSDEM 2020"
+url = "https://fosdem.org/2020/"
+startDate = "2020-02-01"
+endDate = "2020-02-02"
+countryCode = "BE"
+country = "Belgium"
+city = "Brussels"
+site = "ULB Solbosch Campus"
+description = "FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels."
+
+[[events]]
+id = "asiabsdcon-2020"
+name = "AsiaBSDCon 2020"
+url = "https://2020.asiabsdcon.org/"
+startDate = "2020-03-19"
+endDate = "2020-03-22"
+countryCode = "JP"
+country = "Japan"
+city = "Tokyo"
+site = "Tokyo University of Science"
+description = "AsiaBSDCon is a conference for users and developers on BSD based systems. The conference is for anyone developing, deploying and using systems based on FreeBSD, NetBSD, OpenBSD, DragonFlyBSD, Darwin and MacOS X. AsiaBSDCon is a technical conference and aims to collect the best technical papers and presentations available to ensure that the latest developments in our open source community are shared with the widest possible audience."
+
+[[events]]
+id = "freebsd-office-hours-2020-04-01"
+name = "FreeBSD Office Hours"
+url = "https://www.youtube.com/watch?v=6qBm5NM3zTQ"
+startDate = "2020-04-01"
+endDate = "2020-04-01"
+countryCode = "CA"
+country = "Canada"
+city = "Google Hangout"
+site = "Online"
+description = "On April 1st at 18:00 UTC we will hold the first \"FreeBSD Office Hours\", an interactive online event where users, contributors, and developers can ask questions and get advice. The event will be recorded and posted to Youtube after its conclusion."
+
+[[events]]
+id = "freebsd-office-hours-2020-04-16"
+name = "FreeBSD Office Hours"
+url = "https://live.freebsd.org/FreeBSD/officehours/"
+startDate = "2020-04-15"
+endDate = "2020-04-16"
+countryCode = "CA"
+country = "Canada"
+city = "Online"
+site = "live.FreeBSD.org"
+description = "On April 16th at 02:00 UTC (April 15th in North America) we will hold the second \"FreeBSD Office Hours\", an interactive online event where users, contributors, and developers can ask questions and get advice. The event will be recorded and posted to Youtube after its conclusion."
+
+[[events]]
+id = "bsdcan-2020"
+name = "BSDCan 2020"
+url = "https://www.bsdcan.org"
+startDate = "2020-06-03"
+endDate = "2020-06-06"
+countryCode = "CA"
+country = "Canada"
+city = "Ottawa"
+site = "University of Ottawa"
+description = "A four day BSD conference held in Ottawa, Canada. BSDCan hosts talks and tutorials on a range of topics based around the BSD family of operating systems."
+
+[[events]]
+id = "freebsd-office-hours-2020-06-24"
+name = "FreeBSD Office Hours"
+url = "https://live.freebsd.org/FreeBSD/officehours/"
+startDate = "2020-06-24"
+endDate = "2020-06-24"
+countryCode = "CA"
+country = "Canada"
+city = "Online"
+site = "live.FreeBSD.org"
+description = "On June 24th at 18:00 UTC we will hold the fifth \"FreeBSD Office Hours\", an interactive online event where users, contributors, and developers can ask questions and get advice. The event will be recorded and posted to Youtube after its conclusion. For more information see the <a href=\"https://wiki.freebsd.org/OfficeHours\">Office Hours</a> page on the FreeBSD wiki."
+
+[[events]]
+id = "freebsd-friday-2020-07-17"
+name = "FreeBSD Friday: Intro to FreeBSD"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-07-17"
+endDate = "2020-07-17"
+site = "live.FreeBSD.org"
+description = "On July 17th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: Intro to FreeBSD by Deb Goodkin."
+
+[[events]]
+id = "freebsd-office-hours-2020-07-22"
+name = "FreeBSD Office Hours"
+url = "https://live.freebsd.org/FreeBSD/officehours/"
+startDate = "2020-07-22"
+endDate = "2020-07-22"
+countryCode = "CA"
+country = "Canada"
+city = "Online"
+site = "live.FreeBSD.org"
+description = "On July 22nd at 18:00 UTC we will hold a \"FreeBSD Office Hours\", an interactive online event where users, contributors, and developers can ask questions and get advice. The event will be recorded and posted to Youtube after its conclusion. For more information see the <a href=\"https://wiki.freebsd.org/OfficeHours\">Office Hours</a> page on the FreeBSD wiki."
+
+[[events]]
+id = "freebsd-friday-2020-07-24"
+name = "FreeBSD Friday: FreeBSD Installfest Pt 1"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-07-24"
+endDate = "2020-07-24"
+site = "live.FreeBSD.org"
+description = "On July 24th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: FreeBSD Installfest Pt 1 by Roller Angel."
+
+[[events]]
+id = "freebsd-friday-2020-07-31"
+name = "FreeBSD Friday: FreeBSD Installfest Pt 2"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-07-31"
+endDate = "2020-07-31"
+site = "live.FreeBSD.org"
+description = "On July 31st 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: FreeBSD Installfest Pt 2 by Roller Angel."
+
+[[events]]
+id = "freebsd-friday-2020-08-07"
+name = "FreeBSD Friday: History of BSD Fast Filesystem"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-08-07"
+endDate = "2020-08-07"
+site = "live.FreeBSD.org"
+description = "On August 7th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: History of BSD Fast Filesystem by Dr. Marshall Kirk McKusick"
+
+[[events]]
+id = "freebsd-friday-2020-08-14"
+name = "FreeBSD Friday: Introduction to ZFS"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-08-14"
+endDate = "2020-08-14"
+site = "live.FreeBSD.org"
+description = "On August 14th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: Introduction to ZFS by Dan Langille"
+
+[[events]]
+id = "freebsd-office-hours-2020-08-19"
+name = "FreeBSD Office Hours"
+url = "https://live.freebsd.org/FreeBSD/officehours/"
+startDate = "2020-08-19"
+endDate = "2020-08-19"
+site = "live.FreeBSD.org"
+description = "On August 19th at 18:00 UTC we will hold a \"FreeBSD Office Hours\", an interactive online event where users, contributors, and developers can ask questions and get advice. The event will be recorded and posted to Youtube after its conclusion. For more information see the <a href=\"https://wiki.freebsd.org/OfficeHours\">Office Hours</a> page on the FreeBSD wiki."
+
+[[events]]
+id = "freebsd-friday-2020-08-28"
+name = "FreeBSD Friday: Intro to FreeBSD Security"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-08-28"
+endDate = "2020-08-28"
+site = "live.FreeBSD.org"
+description = "On August 28th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: Intro to FreeBSD Security by Antranig Vartanian"
+
+[[events]]
+id = "freebsd-friday-2020-09-11"
+name = "FreeBSD Friday: Introduction to Hardware Hacking on Raspberry Pi"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-09-11"
+endDate = "2020-09-11"
+site = "live.FreeBSD.org"
+description = "On September 11th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: Introduction to Hardware Hacking on Raspberry Pi by Tom Jones"
+
+[[events]]
+id = "bugsquash-2020-09-19"
+name = "FreeBSD Bug Squash"
+url = "https://wiki.freebsd.org/Bugathons"
+startDate = "2020-09-19"
+endDate = "2020-09-19"
+countryCode = "CA"
+country = "Canada"
+city = "Online"
+site = "live.FreeBSD.org"
+description = "On September 19th 2020 from 1400-2100 UTC we will be running a coordinated virtual Bug Squash. FreeBSD has a Problem Report (PR) database where users and developers are encouraged to file issues and regressions they find in both the base system and ports tree. A Bug Squash is a focused session where we try to triage, process, fix and close as many reports as we can from the PR database. This September 11th Bug Squash we will focus on closing as many PRs with patches as we can. Both users and developers are invited to attend and participate via the live video stream and IRC channel."
+
+[[events]]
+id = "freebsd-friday-2020-09-25"
+name = "FreeBSD Friday: Intro to Jails"
+url = "https://live.freebsd.org/FreeBSD/freebsdfriday/"
+startDate = "2020-09-25"
+endDate = "2020-09-25"
+site = "live.FreeBSD.org"
+description = "On September 25th 2020 from 17:00 UTC there will be an 1 hour live streaming session of the FreeBSD Fridays. The topic of this week is: Intro to Jails by Michael W. Lucas"
+

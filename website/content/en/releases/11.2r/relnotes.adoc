@@ -3,6 +3,8 @@ title: "FreeBSD 11.2-RELEASE Release Notes"
 sidenav: download
 ---
 
+include::share/en/urls.adoc[]
+
 = FreeBSD 11.2-RELEASE Release Notes
 
 == Abstract
@@ -45,7 +47,7 @@ The release notes for FreeBSD 11.2-RELEASE contain a summary of the changes made
 
 This document contains the release notes for FreeBSD 11.2-RELEASE. It describes recently added, changed, or deleted features of FreeBSD. It also provides some notes on upgrading from previous versions of FreeBSD.
 
-This distribution of FreeBSD 11.2-RELEASE is a release distribution. It can be found at `https://www.FreeBSD.org/releases/` or any of its mirrors. More information on obtaining this (or other) release distributions of FreeBSD can be found in the {{< books "handbook" "'Obtaining FreeBSD' appendix" "mirrors.html" >}} to the {{< books "handbook" "FreeBSD Handbook" >}}.
+This distribution of FreeBSD 11.2-RELEASE is a release distribution. It can be found at `https://www.FreeBSD.org/releases/` or any of its mirrors. More information on obtaining this (or other) release distributions of FreeBSD can be found in the link:{handbook}#mirrors[Obtaining FreeBSD' appendix] to the link:{handbook}[FreeBSD Handbook].
 
 All users are encouraged to consult the release errata before installing FreeBSD. The errata document is updated with "late-breaking" information discovered late in the release cycle or after the release. Typically, it contains information on known bugs, security advisories, and corrections to documentation. An up-to-date copy of the errata for FreeBSD 11.2-RELEASE can be found on the FreeBSD Web site.
 

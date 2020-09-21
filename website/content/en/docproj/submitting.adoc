@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD Documentation Project: Submitting documentation"
 sidenav: docs
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD Documentation Project: Submitting documentation
 
@@ -21,7 +23,7 @@ After people have looked over your documentation, and you have had the chance to
 
 The correct way to do this is to open a Problem Report. Instructions for doing this can be found at link:../../support/bugreports/[Bug Reports].
 
-You do this so that your submission can be tracked. When you submit a PR (Problem Report) it is assigned a unique number. One of the committers can then assign the PR to themselves, and liaise with you on committing the new documentation. For more information, see {{< articles "problem-reports" "Writing FreeBSD Problem Reports" >}}.
+You do this so that your submission can be tracked. When you submit a PR (Problem Report) it is assigned a unique number. One of the committers can then assign the PR to themselves, and liaise with you on committing the new documentation. For more information, see link:{problem-reports}[Writing FreeBSD Problem Reports].
 
 Make sure the "Product" is set to "Documentation" and that the "Component" is set to either "Documentation" or "Website" as appropriate. You should attach your files from earlier to the PR. Please also provide links to the mailing list posts where your changes were discussed, if appropriate.
 
@@ -58,5 +60,5 @@ You can then send `foo.diff` back to the project. Send a PR as described earlier
 
 == Further reading
 
-* {{< books "fdp-primer" "Documentation Project Primer for New Contributors" >}}
+* link:{fdp-primer}[Documentation Project Primer for New Contributors]
 * link:../[FreeBSD Documentation Project Home]

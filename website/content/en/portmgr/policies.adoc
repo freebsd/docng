@@ -1,7 +1,9 @@
 ---
 title: "Policies of the Ports Management Team"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = Policies of the Ports Management Team
 
@@ -36,7 +38,7 @@ In some cases ports may become broken by changes to the FreeBSD base system (src
 
 == Work with FreeBSD Ports and Documentation Committers
 
-portmgr will attempt to help keep the {{< books "porters-handbook" "FreeBSD Porter's Handbook" >}} up to date with what it believes to be the "best practices" for individual ports.
+portmgr will attempt to help keep the link:{porters-handbook}[FreeBSD Porter's Handbook] up to date with what it believes to be the "best practices" for individual ports.
 
 (The intent is not just to lay down 'rules' but to say 'here is why something that we advocate as The Right Thing in the ports Makefiles is done.' In particular, there are a number of "edge cases" that `bsd.*.mk` has some very convoluted code to handle -- such as ensuring that ports can be installed from CD-ROM, over NFS, and so forth -- and failing to understand these issues can lead to maintainers using shortcuts that will not work in these edge cases.)
 
@@ -44,7 +46,7 @@ portmgr is not the sole owner of the Porter's Handbook, as it is actually in the
 
 In addition, there has been recent discussion about creating a "Rights And Responsibilities of FreeBSD Ports Maintainers and Committers" document. portmgr supports this effort and looks forward to being able to review any drafts.
 
-portmgr also is responsible for certain other documentation such as the ports-specific portions of the {{< articles "committers-guide" "Committer's Guide" "ports.html" >}} and the {{< articles "contributing" "Contributing to FreeBSD Guide" "ports-contributing.html" >}}.
+portmgr also is responsible for certain other documentation such as the ports-specific portions of the link:{committers-guide}#ports[Committer's Guide] and the link:{contributing}#ports-contributing[Contributing to FreeBSD Guide].
 
 == Respect The Legal Rights Of Authors Whose Works Are Installed Via The Ports Collection
 

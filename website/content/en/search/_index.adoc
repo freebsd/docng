@@ -1,7 +1,9 @@
 ---
 title: "Search"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = Search
 
@@ -23,7 +25,7 @@ link:opensearch[List of FreeBSD OpenSearch Plugins]
 '''''
 
 [[web]]
-== Web pages (including {{< books "faq" "FAQ" >}} and {{< books "handbook" "Handbook" >}})
+== Web pages (including link:{faq}[FAQ] and link:{handbook}[Handbook])
 
 === Search within sites:
 

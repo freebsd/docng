@@ -1,7 +1,10 @@
 ---
 title: "FreeBSD/ARM Project"
 sidenav: developers
---- 
+---
+
+include::share/authors.adoc[]
+include::share/en/urls.adoc[]
 
 = FreeBSD/ARM Project
 
@@ -21,9 +24,9 @@ This page contains information about the FreeBSD port to the 32- and 64-bit ARM 
 [[status]]
 == Status
 
-32-bit ARM is officially a {{< articles "committers-guide" "Tier 2" "archs.html" >}} architecture, as the link:../../[FreeBSD] project does not provide official releases or pre-built packages for this platform due to it primarily targeting the embedded arena. However, FreeBSD/ARM is being actively developed and maintained, is well supported, and provides an excellent framework for building ARM-based systems. FreeBSD/arm supports ARMv4 and ARMv5 processors. FreeBSD/armv6 supports ARMv6 and ARMv7 processors, including SMP on the latter.
+32-bit ARM is officially a link:{committers-guide}#archs[Tier 2] architecture, as the link:../../[FreeBSD] project does not provide official releases or pre-built packages for this platform due to it primarily targeting the embedded arena. However, FreeBSD/ARM is being actively developed and maintained, is well supported, and provides an excellent framework for building ARM-based systems. FreeBSD/arm supports ARMv4 and ARMv5 processors. FreeBSD/armv6 supports ARMv6 and ARMv7 processors, including SMP on the latter.
 
-Initial support for 64-bit ARM is complete. 64-bit ARM platforms follow a set of standard conventions, and a single FreeBSD build will work on hardware from multiple vendors. As a result, FreeBSD will provide official releases for FreeBSD/arm64 and packages will be available. FreeBSD/arm64 is on the path to becoming a {{< articles "committers-guide" "Tier 1" "archs.html" >}} architecture.
+Initial support for 64-bit ARM is complete. 64-bit ARM platforms follow a set of standard conventions, and a single FreeBSD build will work on hardware from multiple vendors. As a result, FreeBSD will provide official releases for FreeBSD/arm64 and packages will be available. FreeBSD/arm64 is on the path to becoming a link:{committers-guide}#archs[Tier 1] architecture.
 
 [[hw]]
 == FreeBSD/ARM Hardware Notes
@@ -112,7 +115,7 @@ Note that not all peripherals are supported on all boards.
 [[miniinst]]
 == Mini-Install guide
 
-{{< get-authors "cognet" "both">}} has written a mini-install guide for the current FreeBSD source. It is https://people.FreeBSD.org/~cognet/arm.html[available here].
+{cognet} has written a mini-install guide for the current FreeBSD source. It is https://people.FreeBSD.org/~cognet/arm.html[available here].
 
 [[list]]
 == FreeBSD/ARM mailing list

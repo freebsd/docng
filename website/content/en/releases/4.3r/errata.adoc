@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD 4.3 Errata Notes"
 sidenav: download
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD 4.3 Errata Notes
 
@@ -96,7 +98,7 @@ ssh(1) is no longer SUID root.  The primary manifestation of this
 change is that .shosts authentication may not work "out of the box".
 Both temporary and permanent fixes are described in the FAQ at:
 
-    {{< books "faq" "http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/faq/admin.html#SSH-SHOSTS" "admin.html#SSH-SHOSTS" >}}
+    link:{faq}#SSH-SHOSTS[http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/faq/admin.html#SSH-SHOSTS]
 ....
 
 link:../../[Release Home]

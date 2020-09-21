@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD Advocacy Project"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD Advocacy Project
 
@@ -35,7 +37,7 @@ Contains many links to articles that have appeared which mention FreeBSD.
 
 * http://uptime.netcraft.com/perf/reports/Hosters[Hosting Providers Performance] by Netcraft is tracking the reliability of major webhosting services, many of them are using FreeBSD.
 
-* A brief list of sites using FreeBSD is maintained {{< books "handbook" "in the handbook" "nutshell.html#introduction-nutshell-users" >}}.
+* A brief list of sites using FreeBSD is maintained link:{handbook}#introduction-nutshell-users[in the Handbook].
 
 == FreeBSD conferences
 

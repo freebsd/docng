@@ -1,11 +1,13 @@
 ---
 title: "Working with Hats"
 sidenav: docs
---- 
+---
+
+include::share/authors.adoc[]
 
 = Working with Hats
 
-{{< get-authors "imp" "name">}}, member of the core team as of the writing of the lines below, points out the following considerations and practices when working with hats:
+{imp-name}, member of the core team as of the writing of the lines below, points out the following considerations and practices when working with hats:
 
 This is not an official statement from core, but rather one core member's personal interpretation of core's position, both as a sitting member of core and as a former security officer. This is only a guideline, not as a cudgel for grievances. Much like style(9) is a guideline for the source code, this document is not intended as an absolute straight jacket.
 

@@ -1,7 +1,9 @@
 ---
 title: "About the FreeBSD WWW Server"
 sidenav: docs
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = About the FreeBSD WWW Server
 
@@ -33,7 +35,7 @@ The current website design was done by Emily Boyd as part of the https://summero
 
 The original page design was done by Megan McCormack.
 
-== {{< books "fdp-primer" "Building and updating the FreeBSD Web Pages" "the-website.html#the-website-build" >}}
+== link:{fdp-primer}#the-website-build[Building and updating the FreeBSD Web Pages]
 
 This document describes how to build and update the FreeBSD Web pages from the Subversion repository by hand.
 

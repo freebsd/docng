@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD 3.0 Announcement"
 sidenav: download
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD 3.0 Announcement
 
@@ -13,7 +15,7 @@ After what can only be described as a heroic effort by the FreeBSD Project volun
 
 This release is primarily aimed at developers and early-adopters, though many ISPs have reported good results when using it in production (not that we recommend this to any but the most highly skilled). See the link:notes.html[release notes] for more information.
 
-FreeBSD 3.0-RELEASE is available on ftp://ftp.FreeBSD.org/pub/FreeBSD[ftp.FreeBSD.org] and various {{< books "handbook" "FTP mirror sites" "mirrors.html">}} throughout the world. It can also be ordered on CD from http://www.cdrom.com/[Walnut Creek CDROM], from where it will be shipping shortly as a 4 CD set containing a lot of extra stuff of interest to programmers and general users alike.
+FreeBSD 3.0-RELEASE is available on ftp://ftp.FreeBSD.org/pub/FreeBSD[ftp.FreeBSD.org] and various link:{handbook}#mirrors[FTP mirror sites] throughout the world. It can also be ordered on CD from http://www.cdrom.com/[Walnut Creek CDROM], from where it will be shipping shortly as a 4 CD set containing a lot of extra stuff of interest to programmers and general users alike.
 
 *IMPORTANT NOTE*: All of the profits from the sales of this CD set go to support the FreeBSD Project!
 
@@ -46,7 +48,7 @@ ____
 
 If you are in Japan, please refer to http://www.pht.co.jp/[Pacific HiTech] for information on ordering a localized (or the english) version of the 3.0 product when it becomes available. Pacific HiTech is now an affiliate of Walnut Creek CDROM for Japanese sales of FreeBSD.
 
-Additionally, FreeBSD is available via anonymous FTP from {{< books "handbook" "mirror sites" "mirrors.html">}} in the following countries: Argentina, Australia, Brazil, Bulgaria, Canada, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Iceland, Ireland, Israel, Japan, Korea, Latvia, Malaysia, the Netherlands, Poland, Portugal, Romania, Russia, Slovenia, South Africa, Spain, Sweden, Taiwan, Thailand, the Ukraine and the United Kingdom (and quite possibly several others which I've never even heard of :).
+Additionally, FreeBSD is available via anonymous FTP from link:{handbook}#mirrors[mirror sites] in the following countries: Argentina, Australia, Brazil, Bulgaria, Canada, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Iceland, Ireland, Israel, Japan, Korea, Latvia, Malaysia, the Netherlands, Poland, Portugal, Romania, Russia, Slovenia, South Africa, Spain, Sweden, Taiwan, Thailand, the Ukraine and the United Kingdom (and quite possibly several others which I've never even heard of :).
 
 Before trying the central FTP site, please check your regional mirror(s) first by going to:
 

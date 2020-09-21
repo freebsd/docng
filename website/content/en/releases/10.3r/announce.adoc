@@ -7,6 +7,8 @@ lastRelease: "10.2"
 thisEOL: "April 1, 2018"
 ---
 
+include::share/en/urls.adoc[]
+
 = FreeBSD {{% param thisRelease %}}-RELEASE Announcement
 
 The FreeBSD Release Engineering Team is pleased to announce the availability of FreeBSD {{% param thisRelease %}}-rELEASE. This is the third release of the stable/{{% param thisBranch %}} branch, which improves on the stability of FreeBSD {{% param lastRelease %}}-rELEASE and introduces some new features.
@@ -165,7 +167,7 @@ Any additional mirror sites will be labeled ftp2, ftp3 and so on.
 
 More information about FreeBSD mirror sites can be found at:
 
-* `{{< books "handbook" "http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html" "mirrors-ftp.html" >}}`
+* `link:{handbook}#mirrors-ftp[http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html]`
 
 FreeBSD {{% param thisRelease %}}-rELEASE virtual machine images may be downloaded via ftp from:
 

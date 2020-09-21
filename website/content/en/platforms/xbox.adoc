@@ -1,13 +1,15 @@
 ---
 title: "FreeBSD/xbox Project"
 sidenav: developers
---- 
+---
+
+include::share/authors.adoc[]
 
 = FreeBSD/xbox Project
 
 == Introduction
 
-FreeBSD/xbox is a port of FreeBSD which aims to run on Microsoft(R) Xbox(R) systems. This project was started by {{< get-authors "rink" "both">}}, who did most of the patching and coding. {{< get-authors "ed" "both">}} helped with reviewing patches and he also provided details on certain Xbox internals.
+FreeBSD/xbox is a port of FreeBSD which aims to run on Microsoft(R) Xbox(R) systems. This project was started by {rink}, who did most of the patching and coding. {ed} helped with reviewing patches and he also provided details on certain Xbox internals.
 
 == Status
 

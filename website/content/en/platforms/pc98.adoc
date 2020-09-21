@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD/pc98 Project"
 sidenav: developers
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD/pc98 Project
 
@@ -13,7 +15,7 @@ FreeBSD/pc98 is a port of FreeBSD which aims to run on the NEC PC-98x1 (pc98) ar
 
 FreeBSD/pc98 support was removed from 12.0 in revision `r312910`.
 
-FreeBSD/pc98 was a {{< articles "committers-guide" "Tier 2" "archs.html" >}} architecture at the time of 9.0-RELEASE.
+FreeBSD/pc98 was a link:{committers-guide}#archs[Tier 2] architecture at the time of 9.0-RELEASE.
 
 Although FreeBSD/pc98 was a Tier 1 for a long time since 5.0-RELEASE, it was downgraded due to FreeBSD no longer supporting installation from floppy disks, and most pc98 machines cannot boot from CD/DVD. Although later pc98 machines can boot from CDROM, FreeBSD's support for that has not been integrated into bsdinstall and release tools.
 

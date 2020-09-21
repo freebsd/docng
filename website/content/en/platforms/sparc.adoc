@@ -1,11 +1,15 @@
 ---
 title: "FreeBSD/sparc64 Project"
 sidenav: developers
---- 
+---
+
+include::share/releases.adoc[]
+include::share/en/urls.adoc[]
 
 = FreeBSD/sparc64 Project
 
-== [#intro]#Introduction#
+[[intro]]
+== Introduction
 
 This page contains information about the FreeBSD port to Fujitsu's SPARC64(R) and Oracle's UltraSPARC(R) architectures. Discussion of this port takes place on the https://lists.freebsd.org/mailman/listinfo/freebsd-sparc64[freebsd-sparc] mailing list.
 
@@ -19,12 +23,12 @@ This page contains information about the FreeBSD port to Fujitsu's SPARC64(R) an
 [[status]]
 == Status
 
-UltraSPARC is a {{< articles "committers-guide" "Tier 2" "archs.html" >}} architecture, and as such is not fully supported by the FreeBSD project. Although fully functional, the port is not as feature-complete as the i386 or amd64 ports.
+UltraSPARC is a link:{committers-guide}#archs[Tier 2] architecture, and as such is not fully supported by the FreeBSD project. Although fully functional, the port is not as feature-complete as the i386 or amd64 ports.
 
 [[hw]]
 == Hardware List
 
-A summary of supported systems follows. SMP is supported on all supported systems that contain more than 1 processor. For full details, please see the link:../../releases/{{< param "releases.relCurrent" >}}r/hardware/[hardware notes] of the link:../../releases/[release] you are using.
+A summary of supported systems follows. SMP is supported on all supported systems that contain more than 1 processor. For full details, please see the link:../../releases/{rel120-current}r/hardware/[hardware notes] of the link:../../releases/[release] you are using.
 
 * Naturetech GENIALstation 777S
 * Sun Blade 100

@@ -1,7 +1,10 @@
 ---
 title: "Ports Management Team"
 sidenav: about
---- 
+---
+
+include::share/en/urls.adoc[]
+include::share/authors.adoc[]
 
 = Ports Management Team
 
@@ -25,28 +28,28 @@ A behind-the-scenes look at the efforts that are made to ensure that the Ports C
 
 == Team Members
 
-portmgr@FreeBSD.org: {{< get-authors "portmgr" "members">}}
+portmgr@FreeBSD.org: {portmgr-members}
 
-Secretary: {{< get-authors "rene" "name">}} (portmgr-secretary@FreeBSD.org)
+Secretary: {rene-name} (portmgr-secretary@FreeBSD.org)
 
 == Resources Of Interest To FreeBSD Contributors and Developers
 
-* {{< articles "contributing" "Contributing to the FreeBSD Ports Collection" "ports-contributing.html" >}} +
-An introduction to how you can help contribute to the Ports Collection, by either contributing new ports or helping to fix problems in existing ports. Included is detailed information on what the community will expect from you if you volunteer to maintain one or more ports. Also includes a list of {{< articles "contributing" "further resources" "resources.html" >}}.
+* link:{contributing}#ports-contributing[Contributing to the FreeBSD Ports Collection] +
+An introduction to how you can help contribute to the Ports Collection, by either contributing new ports or helping to fix problems in existing ports. Included is detailed information on what the community will expect from you if you volunteer to maintain one or more ports. Also includes a list of link:{contributing}#resources[further resources].
 
-* {{< books "porters-handbook" "FreeBSD Porter's Handbook" >}} +
-The central reference book for FreeBSD ports submitters, maintainers, and committers, mostly technically oriented. It includes both mandatory requirements and recommendations of what portmgr believes are the best approaches to common problems. one or more ports. Also includes information about {{< books "porters-handbook" "keeping with changes" "keeping-up.html" >}} as well.
+* link:{porters-handbook}[FreeBSD Porter's Handbook] +
+The central reference book for FreeBSD ports submitters, maintainers, and committers, mostly technically oriented. It includes both mandatory requirements and recommendations of what portmgr believes are the best approaches to common problems. one or more ports. Also includes information about link:{porters-handbook}#keeping-up[keeping with changes] as well.
 
 * https://pkg-status.freebsd.org/[FreeBSD Ports Build Cluster] +
 These machines continually build packages on all possible combinations of OS release and CPU architecture (in our terminology, `build environments`), and produce error logs of problems that are encountered along the way.
 
-* {{< articles "releng" "FreeBSD Release Engineering for Third Party Packages" "article.html#release-build" >}} +
+* link:{releng}#release-build[FreeBSD Release Engineering for Third Party Packages] +
 Describes the approach used by the FreeBSD release engineering team to produce a high quality package set suitable for official FreeBSD release media, with specific emphasis on how to split up the packages for the release media, and how to verify that a package set is consistent.
 
-* {{< articles "committers-guide" "FreeBSD Committer's Guide" >}} +
-Includes a discussion of policies and issues that are of {{< articles "committers-guide" "particular interest to committers to the ports tree" "ports.html" >}}.
+* link:{committers-guide}[FreeBSD Committer's Guide] +
+Includes a discussion of policies and issues that are of link:{committers-guide}#ports[particular interest to committers to the ports tree].
 
-* {{< articles "pr-guidelines" "Problem Report Handling Guidelines" >}} +
+* link:{pr-guidelines}[Problem Report Handling Guidelines] +
 [.small]#While primarily aimed at FreeBSD committers, this should also be read by users interested in how best to attract attention to their PRs.#
 
 == Resources Of General Interest

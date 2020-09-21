@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD and World IPv6 Day"
 sidenav: developers
---- 
+---
+
+include::share/en/urls.adoc[]
 
 ////
 Copyright (c) 2011 The FreeBSD Foundation
@@ -67,7 +69,7 @@ Join us for World IPv6 Day, spread the word, to help improving IPv6 support in F
 
 === What is this IPv6 thing?
 
-Please see the {{< books "handbook" "chapter on IPv6" "network-ipv6.html" >}} in the FreeBSD {{< books "handbook" "Handbook" >}} for an explanation.
+Please see the link:{handbook}#network-ipv6[chapter on IPv6] in the FreeBSD link:{handbook}[Handbook] for an explanation.
 
 === Do you provide IPv6 connectivity?
 
@@ -78,7 +80,7 @@ FreeBSD is an operating system, not an Internet Service Provider. There are mult
 * various tunnel brokers we support out of base or ports
 
 to just name a few. +
-Please see the {{< books "handbook" "chapter on IPv6" "network-ipv6.html" >}} in the FreeBSD {{< books "handbook" "Handbook" >}} for more information.
+Please see the link:{handbook}#network-ipv6[chapter on IPv6] in the FreeBSD link:{handbook}[Handbook] for more information.
 
 === I have problems getting IPv6 to work on FreeBSD. Can you help?
 
@@ -95,4 +97,4 @@ FreeBSD comes with a huge collections of link:../../ports/[ports] that allow you
 
 === I have reported a problem but it is not fixed yet.
 
-We are sorry that this is the case. If you have submitted a link:../../support/bugreports/[bug report] it is not lost. FreeBSD is developed and maintained by a {{< articles "contributors" "large team of individuals" "staff-committers.html" >}} and there might have been other things we worked on to improve FreeBSD.
+We are sorry that this is the case. If you have submitted a link:../../support/bugreports/[bug report] it is not lost. FreeBSD is developed and maintained by a link:{contributors}[large team of individuals] and there might have been other things we worked on to improve FreeBSD.

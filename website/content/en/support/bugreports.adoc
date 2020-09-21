@@ -3,6 +3,8 @@ title: "Bug Reports"
 sidenav: support
 ---
 
+include::share/en/urls.adoc[]
+
 = Bug Reports
 
 == Problem Report Database
@@ -18,6 +20,6 @@ Problem reports begin in the _open_ state, and are closed when the issue is reso
 
 Problem reports are submitted to the development team with the https://bugs.FreeBSD.org/submit/[web form]. An account will need to be created before a bug can be submitted. Please note that messages sent to a mailing list are _not_ tracked as official problem reports, and may get lost in the noise!
 
-Before submitting a problem report, please read the {{< articles "problem-reports" "Writing FreeBSD Problem Reports" >}} article. This article describes when to submit a problem report and what to include. Some useful background information is also contained in the {{< articles "pr-guidelines" "Problem Report Handling Guidelines" >}} article.
+Before submitting a problem report, please read the link:{problem-reports}[Writing FreeBSD Problem Reports] article. This article describes when to submit a problem report and what to include. Some useful background information is also contained in the link:{pr-guidelines}[Problem Report Handling Guidelines] article.
 
 FreeBSD problem reports are tracked using http://www.bugzilla.org/[Bugzilla].

@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD Doceng Team Charter"
 sidenav: docs
---- 
+---
+
+include::share/authors.adoc[]
 
 = FreeBSD Doceng Team Charter
 
@@ -19,7 +21,7 @@ It is specifically noted here that doceng@ is *not* a conflict resolution body f
 
 == Current Membership
 
-The current members of this team are {{< get-authors "doceng" "members">}}.
+The current members of this team are {doceng-members}.
 
 == New Doc Committers
 

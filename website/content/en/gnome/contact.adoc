@@ -1,13 +1,15 @@
 ---
 title: "FreeBSD GNOME Project: Contact Us"
 sidenav: gnome
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD GNOME Project: Contact Us
 
 == Contacts
 
-Any questions regarding GNOME on FreeBSD should be addressed to the mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome] mailing list. All FreeBSD GNOME users, as well as those who wish to help improve and maintain GNOME on FreeBSD, should feel free to {{< books "handbook" "join the mailing list" "eresources.html#ERESOURCES-SUBSCRIBE" >}}. You do not have to subscribe if you just want to report a problem or ask for help -- just send your message to freebsd-gnome@FreeBSD.org.
+Any questions regarding GNOME on FreeBSD should be addressed to the mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome] mailing list. All FreeBSD GNOME users, as well as those who wish to help improve and maintain GNOME on FreeBSD, should feel free to link:{handbook}#ERESOURCES-SUBSCRIBE[join the mailing list]. You do not have to subscribe if you just want to report a problem or ask for help -- just send your message to freebsd-gnome@FreeBSD.org.
 
 All relevant discussion should be carried out in the mailing list, unless there is a good reason for contacting one of the developers directly. The people involved in the FreeBSD GNOME Project are:
 

@@ -1,7 +1,9 @@
 ---
 title: "New Account Creation Procedure"
 sidenav: docs
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = New Account Creation Procedure
 
@@ -59,7 +61,7 @@ After the new committer confirms that the account works, the mentor adds the new
 
 The mentor should add the new committer to the https://wiki.freebsd.org/DevelopersGroup[Developers group] on the wiki and to the https://reviews.freebsd.org/project/view/3/[committer] project on Phabricator.
 
-Reading the {{< articles "committers-guide" "Committer's Guide" >}} is considered a good first step for new committers, especially the {{< articles "committers-guide" "Conventions and Traditions" "conventions.html" >}} section.
+Reading the link:{committers-guide}[Committer's Guide] is considered a good first step for new committers, especially the link:{committers-guide}#"conventions.html[Conventions and Traditions] section.
 
 == End Of Mentorship
 

@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD/MIPS Project"
 sidenav: developers
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD/MIPS Project
 
@@ -18,7 +20,7 @@ This page contains information about porting FreeBSD to the MIPS(R) platform. Di
 [[status]]
 == Status
 
-MIPS is a {{< articles "committers-guide" "Tier 3" "archs.html" >}} architecture, and as such is currently regarded as experimental. It is not supported by the FreeBSD project.
+MIPS is a link:{committers-guide}#archs[Tier 3] architecture, and as such is currently regarded as experimental. It is not supported by the FreeBSD project.
 
 [[hw]]
 == FreeBSD/MIPS Hardware Notes

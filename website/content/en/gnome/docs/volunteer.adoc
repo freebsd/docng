@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD GNOME Project: How To Help"
 sidenav: gnome
---- 
+---
+
+include::share/en/urls.adoc[]
 
 = FreeBSD GNOME Project: How To Help
 
@@ -9,7 +11,7 @@ There is always something to do around the GNOME FreeBSD camp. Grab something th
 
 * Test existing ports, and link:../bugging[report bugs]. Try to build with weird configurations intentionally, before someone else tries to do so cluelessly.
 * Regularly install GNOME from packages, and report any problems with the install or the functionality.
-* {{< books "handbook" "Subscribe" "eresources.html#ERESOURCES-SUBSCRIBE" >}} to the freebsd-gnome mailing list, and help answer users' questions.
+* link:{handbook}#ERESOURCES-SUBSCRIBE[Subscribe] to the freebsd-gnome mailing list, and help answer users' questions.
 * Proofread the FreeBSD GNOME link:../../[project pages], and offer feedback and updates.
 * Build, upgrade, and rebuild both stable and development versions. The builditinator.sh script, available from the link:../develfaq/#q3[MarcusCom] portstools repository, can automate the entire process, from start to finish.
 * The following non-trivial porting tasks are needed.

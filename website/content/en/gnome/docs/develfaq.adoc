@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD GNOME Project: GNOME Development Branch FAQ"
 sidenav: gnome
---- 
+---
+
+include::share/releases.adoc[]
 
 = FreeBSD GNOME Project: GNOME Development Branch FAQ
 
@@ -22,16 +24,16 @@ sidenav: gnome
 
 The development versions are the packages released by the GNOME project that will eventually become the stable (release) versions. There are three working branches of GNOME development:
 
-1. *STABLE* - The applications and libraries in the stable branch are considered "release quality," and are the versions that appear in the FreeBSD ports tree. The current stable version is GNOME {{< param "releases.gnomever" >}}.
+1. *STABLE* - The applications and libraries in the stable branch are considered "release quality," and are the versions that appear in the FreeBSD ports tree. The current stable version is GNOME {gnomever}.
 
-2. *DEVELOPMENT* - In between stable releases are development releases. Traditionally, GNOME development releases have odd minor numbers (e.g. 2.3, {{< param "releases.gnomedevelver" >}}, 3.(n*2)-1). Development releases will become stable releases, and move from alpha to beta quality during their lifecycle. The development releases need testing by FreeBSD users to minimize the number of surprises when the new stable versions are committed to the FreeBSD SVN tree. This document is about the development branch. At any time the development branch for FreeBSD might be based of a stable GNOME release. However it will be tagged "development" here if it is the version that is work in progress by the FreeBSD GNOME team. The current development branch for FreeBSD is GNOME {{< param "releases.gnomedevelver" >}}.
+2. *DEVELOPMENT* - In between stable releases are development releases. Traditionally, GNOME development releases have odd minor numbers (e.g. 2.3, {gnomedevelver}, 3.(n*2)-1). Development releases will become stable releases, and move from alpha to beta quality during their lifecycle. The development releases need testing by FreeBSD users to minimize the number of surprises when the new stable versions are committed to the FreeBSD SVN tree. This document is about the development branch. At any time the development branch for FreeBSD might be based of a stable GNOME release. However it will be tagged "development" here if it is the version that is work in progress by the FreeBSD GNOME team. The current development branch for FreeBSD is GNOME {gnomedevelver}.
 
 3. *GIT* - Often newer-than-new, the GIT master versions of GNOME applications and libraries are alpha quality, or often completely unbuildable. The FreeBSD GNOME project pays attention to, but does not track the alpha quality code.
 
 [[q2]]
 * *Should I track GNOME development versions?*
 
-If you are looking for a stable environment, absolutely not. Please only track the GNOME {{< param "releases.gnomedevelver" >}} branch if you wish to help identify bug and improve the FreeBSD GNOME project. You will find little sympathy if a development-quality GNOME application eats your homework.
+If you are looking for a stable environment, absolutely not. Please only track the GNOME {gnomedevelver} branch if you wish to help identify bug and improve the FreeBSD GNOME project. You will find little sympathy if a development-quality GNOME application eats your homework.
 
 [[q3]]
 * *How do I obtain the development versions of GNOME stuff?*
@@ -51,11 +53,11 @@ GNOME has an excellent guide for getting https://wiki.gnome.org/GettingTraces[us
 [[q4]]
 * *How do I keep everything up-to-date and in sync?*
 
-The short answer is that you need to use the `marcusmerge` script to merge the development tree with the FreeBSD ports tree. The `marcusmerge` script is available http://www.marcuscom.com/downloads/marcusmerge[here], and a man page on using the script is available http://www.marcuscom.com/marcusmerge.8.html[here]. This script will merge the development ports tree into your main ports tree. From there, you can use `portupgrade` or `portmaster` to upgrade from {{< param "releases.gnomever" >}} to {{< param "releases.gnomedevelver" >}} and stay up-to-date afterwards.
+The short answer is that you need to use the `marcusmerge` script to merge the development tree with the FreeBSD ports tree. The `marcusmerge` script is available http://www.marcuscom.com/downloads/marcusmerge[here], and a man page on using the script is available http://www.marcuscom.com/marcusmerge.8.html[here]. This script will merge the development ports tree into your main ports tree. From there, you can use `portupgrade` or `portmaster` to upgrade from {gnomever} to {gnomedevelver} and stay up-to-date afterwards.
 
 The long answer is that keeping up-to-date with the GNOME development branch is complicated. Sometimes components change in a way that makes `portupgrade` or `portmaster` fail, or causes strange end results. If you plan to track the development branch, it is a good idea to join the http://lists.FreeBSD.org/mailman/listinfo/freebsd-gnome[freebsd-gnome] mailing list, as well as to join the _#freebsd-gnome_ IRC channel on FreeNode (`irc.freenode.net`).
 
-If all of this sounds scary, or you need a desktop that "Just Works," you should stick with the {{< param "releases.gnomever" >}} version that is available in the FreeBSD ports tree.
+If all of this sounds scary, or you need a desktop that "Just Works," you should stick with the {gnomever} version that is available in the FreeBSD ports tree.
 
 [[q5]]
 * *What should I do when something does not work?*
@@ -67,9 +69,9 @@ Please forward all relevant bug IDs to freebsd-gnome@FreeBSD.org so we can keep 
 [[q6]]
 * *How can I help with the development versions?*
 
-Now that work on {{< param "releases.gnomedevelver" >}} has started, we need people to install it, and test things. If you are compiling {{< param "releases.gnomedevelver" >}} by hand, be sure to build link:../bugging/[debugging symbols]. Package users will have these symbols already.
+Now that work on {gnomedevelver} has started, we need people to install it, and test things. If you are compiling {gnomedevelver} by hand, be sure to build link:../bugging/[debugging symbols]. Package users will have these symbols already.
 
 [[q7]]
 * *What is the current state of development GNOME on FreeBSD?*
 
-{{< param "releases.gnomever" >}} is the latest version that was merged into the FreeBSD ports tree. Work is currently underway to make {{< param "releases.gnomedevelver" >}} stable.
+{gnomever} is the latest version that was merged into the FreeBSD ports tree. Work is currently underway to make {gnomedevelver} stable.

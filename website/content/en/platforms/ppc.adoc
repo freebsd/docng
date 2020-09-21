@@ -1,7 +1,10 @@
 ---
 title: "FreeBSD/ppc Project"
 sidenav: developers
---- 
+---
+
+include::share/releases.adoc[]
+include::share/en/urls.adoc[]
 
 = FreeBSD/ppc Project
 
@@ -24,7 +27,7 @@ The FreeBSD/ppc project pages contain information about the FreeBSD port to the 
 [[status]]
 == Status
 
-The FreeBSD/ppc port is still a {{< articles "committers-guide" "Tier 2" "archs.html" >}} platform. That means it is not being fully supported by our security officer, release engineers and toolchain maintainers. However, it is supported by portmgr (package building).
+The FreeBSD/ppc port is still a link:{committers-guide}#archs[Tier 2] platform. That means it is not being fully supported by our security officer, release engineers and toolchain maintainers. However, it is supported by portmgr (package building).
 
 The most up-to-date information about supported hardware is currently being maintained https://wiki.freebsd.org/powerpc[on the wiki].
 
@@ -48,12 +51,12 @@ The most up-to-date information about supported hardware is currently being main
 [[install]]
 === How can I install FreeBSD/ppc?
 
-ISO images of FreeBSD {{< param "releases.relCurrent" >}} are available for download, for details on how to obtain these see the link:../../releases/{{< param "releases.relCurrent" >}}r/announce/[release announcement.]
+ISO images of FreeBSD {rel120-current} are available for download, for details on how to obtain these see the link:../../releases/{rel120-current}r/announce/[release announcement.]
 
 [[ports]]
 === How to use ports on FreeBSD/ppc?
 
-The easiest way to use ports on FreeBSD is to use portsnap. Refer to the Handbook if you need assistance to {{< books "handbook" "use the Ports Collection" "ports-using.html" >}}.
+The easiest way to use ports on FreeBSD is to use portsnap. (if running FreeBSD {rel114-current} or {rel121-current}) or Subversion (if running FreeBSD-CURRENT). Refer to the Handbook if you need assistance to link:{handbook}#ports-using[use the Ports Collection].
 
 [[ppcppc64]]
 === Should I install powerpc or powerpc64?
