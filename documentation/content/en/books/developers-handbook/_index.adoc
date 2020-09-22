@@ -1,0 +1,115 @@
+---
+title: FreeBSD Developers' Handbook
+authors:
+  - author: The FreeBSD Documentation Project
+copyright: 1995-2020 The FreeBSD Documentation Project
+releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/books/developers-handbook/book.xml 54255 2020-06-15 08:13:08Z bcr $"
+trademarks: ["freebsd", "apple", "ibm", "ieee", "intel", "linux", "microsoft", "opengroup", "sun", "general"] 
+---
+
+= FreeBSD Developers' Handbook
+:doctype: book
+:toc: macro
+:toclevels: 2
+:icons: font
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
+:sectnums:
+:partnums:
+:chapter-signifier: Chapter
+:part-signifier: Part
+:source-highlighter: rouge
+:experimental:
+:skip-front-matter:
+:figure-caption: Figure
+
+ifeval::["{backend}" == "html5"]
+include::share/mirrors.adoc[]
+include::share/authors.adoc[]
+include::share/releases.adoc[]
+include::share/en/mailing-lists.adoc[]
+include::share/en/teams.adoc[]
+include::share/en/urls.adoc[]
+:imagesdir: ../../images/books/developers-handbook/
+:chapters-path: content/en/books/developers-handbook/
+endif::[]
+
+ifeval::["{backend}" == "pdf"]
+include::../../../../share/mirrors.adoc[]
+include::../../../../share/authors.adoc[]
+include::../../../../share/releases.adoc[]
+include::../../../../share/en/mailing-lists.adoc[]
+include::../../../../share/en/teams.adoc[]
+include::../../../../share/en/urls.adoc[]
+:imagesdir: ../../../static/images/books/developers-handbook/
+:chapters-path:
+endif::[]
+
+ifeval::["{backend}" == "epub3"]
+include::../../../../share/mirrors.adoc[]
+include::../../../../share/authors.adoc[]
+include::../../../../share/releases.adoc[]
+include::../../../../share/en/mailing-lists.adoc[]
+include::../../../../share/en/teams.adoc[]
+include::../../../../share/en/urls.adoc[]
+:imagesdir: ../../../static/images/books/developers-handbook/
+:chapters-path:
+endif::[]
+
+[.abstract-title]
+[abstract]
+Abstract
+
+Welcome to the Developers' Handbook. This manual is a _work in progress_ and is the work of many individuals. Many sections do not yet exist and some of those that do exist need to be updated. If you are interested in helping with this project, send email to the {freebsd-doc}.
+
+The latest version of this document is always available from the link:https://www.FreeBSD.org[FreeBSD World Wide Web server]. It may also be downloaded in a variety of formats and compression options from the link:https://download.freebsd.org/ftp/doc/[FreeBSD FTP server] or one of the numerous link:{handbook}#mirrors-ftp/[mirror sites].
+
+'''
+
+toc::[]
+
+// Section one
+[[basics]]
+= Basics
+
+include::{chapters-path}introduction/chapter.adoc[leveloffset=+1]
+include::{chapters-path}tools/chapter.adoc[leveloffset=+1]
+include::{chapters-path}secure/chapter.adoc[leveloffset=+1]
+include::{chapters-path}l10n/chapter.adoc[leveloffset=+1]
+include::{chapters-path}policies/chapter.adoc[leveloffset=+1]
+include::{chapters-path}testing/chapter.adoc[leveloffset=+1]
+
+// Section two
+[[ipc]]
+= Interprocess Communication
+include::{chapters-path}sockets/chapter.adoc[leveloffset=+1]
+include::{chapters-path}ipv6/chapter.adoc[leveloffset=+1]
+
+// Section three
+[[kernel]]
+= Kernel
+include::{chapters-path}kernelbuild/chapter.adoc[leveloffset=+1]
+include::{chapters-path}kerneldebug/chapter.adoc[leveloffset=+1]
+
+// Section four
+[[architectures]]
+= Architectures
+include::{chapters-path}x86/chapter.adoc[leveloffset=+1]
+
+// Appendices
+[[appendices]]
+[bibliography]
+= Appendices
+
+[[COD,1]] [1] Dave A Patterson and John L Hennessy. Copyright(R) 1998 Morgan Kaufmann Publishers, Inc. 1-55860-428-6. Morgan Kaufmann Publishers, Inc. Computer Organization and Design. The Hardware / Software Interface. 1-2.
+
+[[APUE, 2]] [2] W. Richard Stevens. Copyright(R) 1993 Addison Wesley Longman, Inc. 0-201-56317-7. Addison Wesley Longman, Inc. Advanced Programming in the Unix Environment. 1-2.
+
+[[DIFOS, 3]] [3] Marshall Kirk McKusick and George Neville-Neil. Copyright(R) 2004 Addison-Wesley. 0-201-70245-2. Addison-Wesley. The Design and Implementation of the FreeBSD Operating System. 1-2.
+
+[[Phrack, 4]] [4] Aleph One. Phrack 49; "Smashing the Stack for Fun and Profit".
+
+[[StackGuard, 5]] [5] Chrispin Cowan, Calton Pu, and Dave Maier. StackGuard; Automatic Adaptive Detection and Prevention of Buffer-Overflow Attacks.
+
+[[OpenBSD, 6]] [6] Todd Miller and Theo de Raadt. strlcpy and strlcat -- consistent, safe string copy and concatenation.

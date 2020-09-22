@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div id="content">
+  <div id="content">
+    <div id="sidewrap">
+      <div id="sidenav">
+        <ul>
+          <li><a href={{ "docs" | absLangURL }}>{{ i18n "documentation" }}</a></li>
+          <li><a href="/doc/en_US.ISO8859-1/books/faq/">{{ i18n "FAQ" }}</a></li>
+          <li><a href="/doc/en_US.ISO8859-1/books/handbook/">{{ i18n "handbook" }}</a></li>
+          <li><a href="/cgi/man.cgi">{{ i18n "man" }}</a></li>
+          <li><a href="https://papers.freebsd.org/">{{ i18n "papers" }}</a></li>
+          <li><a href={{ "docs/books/" | absLangURL }}>{{ i18n "booksArticles" }}</a></li>
+          <li><a href={{ "publish" | absLangURL }}>{{ i18n "publications" }}</a></li>
+          <li><a href={{ "docs/webresources/" | absLangURL }}>{{ i18n "webresources" }}</a></li>
+          <li><a href={{ "projects/newbies/" | absLangURL }}>{{ i18n "newbies" }}</a></li>
+          <li><a href={{ "docproj" | absLangURL }}>{{ i18n "docproj" }}</a></li>
+          <li><a href="https://docs.freebsd.org/doc/">{{ i18n "archive" }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="contentwrap">
+      {{ $home := .Site.Home }}
+      <ul id="language-container">
+        <li>
+          <a>
+            {{ i18n "languages" }}
+            <img src="{{ absLangURL ($.Site.BaseURL ) }}images/language.png" class="language-image">
+          </a>
+          <ul class="language-list">
+            {{ range $.Site.Home.AllTranslations }}
+            {{ $isCurrentLang := eq $home.Language .Language }}
+            <li>
+              <a href="{{ .RelPermalink }}" lang="{{ .Language.Params.languageCode }}">{{ if $isCurrentLang  }}✓{{ end }}{{ .Language.LanguageName }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </li>
+      </ul>
+      <h1>{{ i18n "articles" }} - {{ $home.Language }}</h1>
+      {{ $articles := slice}}
+
+      {{ range where .Site.Pages "Section" "articles" }}
+        {{ with .File }}
+          {{ $articles  = $articles  | append (dict "page" . "path" .File.Path) }}
+        {{ end }}
+      {{ end }}
+
+      <ul>
+      {{ range sort $articles "path" }}
+        {{ if ne .path "" }}
+          {{ $articlePath := replaceRE "/_index.adoc" "" .path }}
+          {{ $articleName := replaceRE "articles/" "" $articlePath }}
+          <li><a href="{{ $articlePath }}">{{ $articleName }}</a></li>
+        {{ end }}
+      {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}

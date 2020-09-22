@@ -1,0 +1,264 @@
+# Global
+[freebsd]
+other = "FreeBSD"
+
+[freebsdProject]
+other = "El Proyecto FreeBSD"
+
+[freebsdPowerServe]
+other = "FreeBSD The Power to Serve"
+
+[freebsdFoundation]
+other = "The FreeBSD Foundation"
+
+[downloadFreebsd]
+other = "Descargar FreeBSD"
+
+[production]
+other = "Producción"
+
+# Header
+[donate]
+other = "Donar a FreeBSD"
+
+[donateFoundation]
+other = "Donar a la FreeBSD Foundation"
+
+[search]
+other = "Buscar"
+
+# Navigation
+[home]
+other = "Inicio"
+
+[about]
+other = "Acerca de FreeBSD"
+
+[introduction]
+other = "Introduccion"
+
+[features]
+other = "Características"
+
+[advocacy]
+other = "Proselitismo"
+
+[marketing]
+other = "Marketing"
+
+[privacyPolicy]
+other = "Política de privacidad"
+
+[getFreeBSD]
+other = "Descargart FreeBSD"
+
+[releaseInformation]
+other = "Release Information"
+
+[releaseEngineering]
+other = "Release Engineering"
+
+[documentation]
+other = "Documentación"
+
+[faq]
+other = "FAQ"
+
+[handbook]
+other = "Handbook"
+
+[porterHandbook]
+other = "Porter's Handbook"
+
+[developerHandbook]
+other = "Developer's Handbook"
+
+[manualPages]
+other = "Manuales en línea"
+
+[documentationProjectPrimer]
+other = "Documentation Project Primer"
+
+[allBooksArticles]
+other = "Todos los libros y artículos"
+
+[community]
+other = "Comunidad"
+
+[mailingLists]
+other = "Listas de correo"
+
+[forums]
+other = "Foros"
+
+[userGroups]
+other = "Grupos de usuarios"
+
+[events]
+other = "Eventos"
+
+[FreeBSDJournal]
+other = "FreeBSD Journal"
+
+[QA]
+other = "Q&A (externo)"
+
+[developers]
+other = "Desarrolladores"
+
+[projectIdeas]
+other = "Ideas para proyectos"
+
+[subversionRepository]
+other = "Repositorio Subversion"
+
+[gitMirror]
+other = "Git Mirror"
+
+[phabricator]
+other = "Code Review (Phabricator)"
+
+[wiki]
+other = "Wiki"
+
+[CI]
+other = "Servicio de integración continua"
+
+[support]
+other = "Soporte"
+
+[vendors]
+other = "Distribuidores comerciales"
+
+[securityInformation]
+other = "Información seguridad"
+
+[bugReports]
+other = "Informes errores"
+
+[submittingBugReports]
+other = "Envío informe errores"
+
+[foundation]
+other = "Fundación"
+
+[monetaryDonations]
+other = "Donaciones monetarias"
+
+[hardwareDonations]
+other = "Donaciones hardware"
+
+#Main
+[freebsdDescription]
+other = "FreeBSD es un sistema operativo para servidores, equipos de escritorio y plataformase embebidas. Una gran comunidad lo ha desarrollado de manera continuada durante más de treinta años. Sus avanzadas funciones de red, seguridad y almacenamiento han hecho de FreeBSD la plataforma elegida por muchos de los sitios web más concurridos y los dispositivos de red y almacenamiento más generalizados."
+
+[learnMore]
+other = "Más información"
+
+[getThe]
+other = "Obtener el"
+
+[journal]
+other = "FreeBSD Journal"
+
+[supportedReleases]
+other = "Supported Releases"
+
+[supportLifecycle]
+other = "Support Lifecycle"
+
+[upcoming]
+other = "Upcoming"
+
+[newFreeBSD]
+other= "¿Nuevo en FreeBSD?"
+
+[shortcuts]
+other = "ENLACES RÁPIDOS"
+
+[reportingProblems]
+other = "Enviar un fallo"
+
+[FAQ]
+other = "FAQ"
+
+[ports]
+other = "Ports"
+
+[latestNews]
+other = "ÚLTIMAS NOTICIAS"
+
+[upcomingEvents]
+other = "PRÓXIMOS EVENTOS"
+
+[press]
+other = "EN LOS MEDIOS"
+
+[securityAdvisories]
+other = "AVISOS DE SEGURIDAD"
+
+[errataNotices]
+other = "AVISOS SOBRE ERRORES"
+
+[moreNews]
+other = "Más noticias"
+
+[moreEvents]
+other = "Más eventos"
+
+[moreMedia]
+other = "Más medios"
+
+[more]
+other = "Más"
+
+#404
+[notFoundTitle]
+other = "We could not find the page you requested."
+
+[notFoundDesc]
+other = "Please try your request again, use one of the links in the navigation menu, or the search box at the top of the page."
+
+# Footer
+[copyright]
+other = "All rights reserved."
+
+[trademark]
+other = "The mark FreeBSD is a registered trademark of The FreeBSD Foundation and is used by The FreeBSD Project with the permission of"
+
+# Months
+[1]
+other = "January"
+
+[2]
+other = "February"
+
+[3]
+other = "March"
+
+[4]
+other = "April"
+
+[5]
+other = "May"
+
+[6]
+other = "June"
+
+[7]
+other = "July"
+
+[8]
+other = "August"
+
+[9]
+other = "September"
+
+[10]
+other = "October"
+
+[11]
+other = "November"
+
+[12]
+other = "December"

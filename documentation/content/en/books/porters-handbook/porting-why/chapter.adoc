@@ -1,0 +1,22 @@
+---
+title: Chapter 1. Introduction
+---
+
+[[why-port]]
+= Introduction
+:doctype: book
+:toc: macro
+:toclevels: 1
+:icons: font
+:sectnums:
+:source-highlighter: rouge
+:experimental:
+:skip-front-matter:
+:figure-caption: Figure
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
+
+The FreeBSD Ports Collection is the way almost everyone installs applications ("ports") on FreeBSD. Like everything else about FreeBSD, it is primarily a volunteer effort. It is important to keep this in mind when reading this document.
+
+In FreeBSD, anyone may submit a new port, or volunteer to maintain an existing unmaintained port. No special commit privilege is needed.

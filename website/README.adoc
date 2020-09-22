@@ -1,0 +1,29 @@
+= FreeBSD Website
+
+This is the FreeBSD website build with Hugo and AsciiDoctor.
+
+== Requirements
+
+In order to run the website, hugo and asciidoctor must be installed with the following command:
+
+[source,sh]
+pkg install gohugo rubygem-asciidoctor
+
+
+== Execution
+
+To see the changes locally, run the following command:
+
+[source,sh]
+hugo server -D
+
+And open http://localhost:1313/freebsd-hugo-website/ in your browser.
+
+== Compilation
+
+To build the website run the following command:
+
+[source,sh]
+hugo --minify
+
+And this will generate the entire website in the /public folder

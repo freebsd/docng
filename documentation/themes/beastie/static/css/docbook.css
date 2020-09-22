@@ -1,0 +1,801 @@
+/*
+ * Copyright (c) 2001, 2003, 2010 The FreeBSD Documentation Project
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * $FreeBSD$
+ */
+
+/*
+ * General DocBook styles from the DocBook XSL distribution
+ */
+
+.formalpara-title {
+	font-weight: bold;
+}
+
+.subtitle {
+  color: #000;
+  font-style: italic;
+}
+
+a:link {
+	color:#0645AD;
+	text-decoration: underline;
+}
+
+a:visited, a:hover, a:active {
+	color:#663366;
+	text-decoration: underline;
+}
+
+div.blockquote-title {
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+span.msgmain-title {
+	font-weight: bold;
+}
+
+span.msgsub-title {
+	font-weight: bold;
+}
+
+span.msgrel-title {
+	font-weight: bold;
+}
+
+div.msglevel, div.msgorig, div.msgaud {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+span.msglevel-title, span.msgorig-title, span.msgaud-title {
+	font-weight: bold;
+}
+
+div.msgexplan {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+span.msgexplan-title {
+	font-weight: bold;
+}
+
+div.figure-title {
+	font-weight: bold;
+}
+
+div.example-title,
+.exampleblock .title{
+	font-weight: bold;
+}
+
+div.equation-title {
+	font-weight: bold;
+}
+
+div.table-title {
+	font-weight: bold;
+}
+
+div.sidebar-title {
+	font-weight: bold;
+}
+
+div.synopsis {
+	white-space: pre;
+	font-family: monospace;
+}
+
+/*
+ * FreeBSD-specific formatting
+ */
+
+body address {
+	line-height: 1.3;
+	margin: .6em 0;
+}
+
+html body {
+	margin: 1em 8% 1em 10%;
+	line-height: 1.2;
+}
+
+@media screen {
+	html body { font-family: sans-serif !important; }
+}
+
+@media print {
+	html body { font-family: serif; }
+}
+
+.copyright {
+  margin: 16px 0;
+}
+
+.legalnotice {
+	font-size: small;
+	font-variant: small-caps;
+}
+
+details {
+  margin: 13px 0;
+  cursor: pointer;
+}
+
+.legalnotice details summary {
+  font-size: 16px;
+}
+
+body div {
+	margin: 0;
+}
+
+dl {
+	margin: .4em 0 0 0;
+	line-height: 1.2;
+}
+
+dt {
+	font-weight: bold;
+	margin: 0.4em 0 0 0;
+}
+
+.abstract-title,
+#toc #toctitle,
+div.list-of-figures div.toc-title,
+div.list-of-tables div.toc-title,
+div.list-of-examples div.toc-title {
+	font-size: 115%;
+}
+
+.abstract-title blockquote {
+  margin: 0;
+}
+
+div.calloutlist dt {
+  float: left;
+  width: 1em;
+}
+
+div.calloutlist dd {
+	clear: right;
+	margin-bottom: 1ex;
+}
+
+body .calloutlist td {
+	padding-right: 0.5em;
+	width: auto;
+}
+
+body .calloutlist td p {
+	line-height: 1.2;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+body form {
+	margin: .6em 0;
+}
+
+div.example p b,
+.question,
+div.table p b {
+	color: #990000;
+}
+
+h1, h2, h3, h4, h5, h6,
+.author, .corpauthor,
+.abstract-title,
+#toc #toctitle,
+.toc-title,
+div.list-of-figures .toc-title,
+div.list-of-tables div.toc-title,
+div.list-of-examples div.toc-title {
+	font-weight: bold;
+	line-height: 1.3;
+	margin-top: 1em;
+	margin-left: 0;
+	color: #990000;
+}
+
+h1, h2, h1.title {
+	margin: .8em 0 0 -4% !important;
+}
+
+h3, h4 {
+	margin: .8em 0 0 -3% !important;
+}
+
+h5 {
+	margin: .8em 0 0 -2% !important;
+}
+
+h6 {
+	margin: .8em 0 0 -1% !important;
+}
+
+body hr {
+	margin: .6em;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #cecece;
+}
+
+body img.navheader {
+	margin: 0 0 0 -4%;
+}
+
+ol {
+	margin: 0 0 0 1em;
+	line-height: 1.2;
+}
+
+body pre {
+	font-family: monospace;
+}
+
+body td, body th {
+	line-height: 1.2;
+	padding-right: 1.5em;
+}
+
+ul, body dir, body menu {
+	margin: 0 0 0 1em;
+	line-height: 1.2;
+}
+
+.ulist li {
+  margin: 16px 0;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+p.tableblock {
+  margin: 0;
+}
+
+.filename {
+	color: #007a00;
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.systemitem {
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.option {
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.replaceable {
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 15.6px;
+  font-style: italic;
+}
+
+.var, .varname {
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.username {
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.email {
+  font-family: "DejaVu Sans Mono";
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.address {
+  padding-left: 20px;
+}
+
+.package, .port {
+	color: #007a00;
+	font-family: monospace;
+	font-style: italic;
+}
+
+.paragraph .title {
+  font-weight: bold;
+}
+
+.svnref {
+	color: #007a00;
+}
+
+.code-example-separation {
+  margin-top: 9px;
+}
+
+.guimenu, .guimenuitem, .guisubmenu,
+.guilabel, .interface,
+.shortcut, .shortcut .keycap {
+	font-weight: bold;
+}
+
+.guibutton {
+	background-color: #CFCFCF;
+	padding: 2px;
+}
+
+.button {
+	background-color: #CFCFCF !important;
+	padding: 2px;
+}
+
+.button::before {
+  content: "[";
+  padding: 0 3px 0 2px;
+}
+
+.button::after {
+  content: "]";
+  padding: 0 2px 0 3px;
+}
+
+.accel {
+	background-color: #F0F0F0;
+	text-decoration: underline;
+}
+
+.screen {
+  overflow: auto !important;
+  font-family: monospace !important;
+  padding: 1em !important;
+  background-color: #edc !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  margin: 0 !important;
+  width: 97% !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+kbd {
+  font-family: "DejaVu Sans", "DejaVu Sans Bold";
+  display: inline-block;
+  color: rgba(0,0,0,.8);
+  font-size: .65em;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;
+  margin: 0 .15em;
+  padding: .2em .5em;
+  vertical-align: middle;
+  position: relative;
+  top: -.1em;
+  white-space: nowrap;
+}
+
+pre {
+    margin: 0;
+}
+
+.screen p {
+    margin: 0;
+}
+
+.programlisting {
+  overflow: auto;
+  font-family: monospace;
+  padding: 1ex;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+@media screen {  /* hide from IE3 */
+	a[href]:hover { background: #ffa }
+}
+
+.informaltable, .table th {
+	padding-left: 0.2em;
+	text-align: left;
+}
+
+.note, .tip, .important, .warning, .caution, .example, .exampleblock, div.procedure {
+	border-radius: 4px;
+	padding: 2ex;
+	margin: .75em 3em .75em 1em;
+	line-height: 1.3;
+}
+
+.note, div.procedure {
+	color: #222 !important;
+	background: #eee !important;
+	border: 1px solid #ccc !important;
+	width: 90% !important;
+}
+
+.tip {
+	color: #004F00 !important;
+	background: #d8ecd6 !important;
+	border: 1px solid green !important;
+	width: 90% !important;
+}
+
+.important {
+	font-style:italic !important;
+	border: 1px solid #a00 !important;
+	border-left: 12px solid #c00 !important;
+	width: 90% !important;
+  background-color: #FFF !important;
+}
+
+.warning {
+	color: #9F1313 !important;
+	background: #f8e8e8 !important;
+	border: 1px solid #e59595 !important;
+	width: 90% !important;
+}
+
+.caution {
+	color: #3E3535;
+	background: #FFC;
+	border: 1px solid #e59595;
+	width: 90%;
+}
+
+.example, .exampleblock {
+	background: #fefde6;
+	border: 1px solid #f1bb16;
+	width: 90%;
+}
+
+.exampleblock .content .literalblock .content{
+  background: #fefde6 !important;
+  border: none !important;
+}
+
+.exampleblock .content .programlisting .content{
+  padding: 1ex !important;
+  background-color: #eee !important;
+  border: 1px solid #ccc !important;
+}
+
+.admontitle {
+	display: inline;
+	line-height: 1;
+	margin-right: 0;
+  font-size: 18px;
+}
+
+.literalblock {
+  background-color: #FFF !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.literalblock .title {
+  background-color: #fefde6;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: "DejaVu Sans";
+  padding-bottom: 9px;
+}
+
+.literalblock .content {
+  overflow: auto;
+  font-family: monospace;
+  padding: 1ex;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.literal-block-margin {
+  margin: 9px 0;
+}
+
+.procedure-title {
+	font-weight: bold;
+	line-height: 1;
+	margin-right: 0;
+}
+
+.note p:first-of-type, .tip p:first-of-type, .important p:first-of-type, .warning p:first-of-type, .caution p:first-of-type {
+	display: inline-block;
+}
+
+.note p, .tip p, .important p, .warning p, .caution p {
+	margin: .4ex 0 .4ex 0;
+}
+
+.informaltable table.calstable tr td {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.authorgroup {
+	font-style: italic;
+}
+
+.userinput,
+.userinput code {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.errorname {
+	font-family: monospace;
+	font-style:  italic;
+}
+
+pre.screen strong {
+	font-family: monospace;
+	font-weight: normal;
+}
+
+.procedure ol {
+	line-height: 1.2;
+	margin: 0 0 0 -1em;
+}
+
+span.contrib {
+	font-size: small;
+	font-style: italic;
+}
+
+.literal, .command {
+	font-family: monospace;
+}
+
+.prompt {
+	margin-left: -3px;
+}
+
+ul.sectlevel0 {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+ul.sectlevel0 li {
+    font-weight: bold;
+    margin: 0.4em 0 0 0;
+}
+
+ul.sectlevel0 li a {
+    color: #0645AD;
+    text-decoration: underline;
+}
+
+ul.sectlevel1 {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+ul.sectlevel1 li {
+    font-weight: bold;
+    margin: 0.4em 0 0 0;
+}
+
+ul.sectlevel1 li a {
+    color: #0645AD;
+    text-decoration: underline;
+}
+
+.imageblock .title {
+  font-weight: bolder;
+}
+
+/* Navigation */
+.navheader, .navfooter {
+  display: flex;
+  justify-content: center;
+}
+
+.navheader .prev, .navfooter .prev {
+  display: flex;
+  margin-right: auto;
+  align-items: end;
+}
+
+.navheader .chapter, .navfooter .home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navheader .chapter .title {
+  line-height: 25px;
+}
+
+.navheader .next, .navfooter .next {
+  display: flex;
+  margin-left: auto;
+  align-items: end;
+}
+
+.help {
+  text-align: center;
+}
+
+/* New highlight */
+
+.rouge {
+  overflow: auto !important;
+  font-family: monospace !important;
+  padding: 1em !important;
+  background-color: #edc !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  margin: 0 !important;
+  width: 97% !important;
+}
+
+.rouge .c {
+  font-weight: bolder;
+}
+
+.rouge b {
+  display: none;
+}
+
+.colist tr td b, .programlisting b {
+  display: none;
+}
+
+/* callouts */
+.conum {
+  display: inline-block;
+  color: #fff !important;
+  background-color: #000;
+  border-radius: 100px;
+  text-align: center;
+  font-size: .75em;
+  width: 1.67em;
+  height: 1.67em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.conum[data-value] {
+    color: #fff !important;
+    text-align: center;
+    font-size: .75em;
+    line-height: 1.67em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.conum[data-value]::after {
+    content: attr(data-value);
+}
+
+.colist td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* New Tables */
+
+table.tableblock {
+  margin-bottom: 1.25em;
+  border: 1px solid #dedede;
+  background-color: #FFF;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table.stretch {
+    width: 100%;
+}
+
+table caption {
+  text-rendering: optimizeLegibility;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+table.tableblock thead {
+  background: #f7f8f7;
+  font-weight: bold;
+}
+
+table.tableblock th {
+  vertical-align: top;
+  text-align: left;
+  border: 0 solid #dedede;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  padding: .5em .625em .625em;
+  font-size: inherit;
+  color: #222;
+  font-weight: bold;
+}
+
+table.tableblock td {
+  vertical-align: top;
+  text-align: left;
+  border: 0 solid #dedede;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  padding: .5em .625em .625em;
+  font-size: inherit;
+  color: #222;
+}
+
+table.grid-all th.tableblock, table.grid-all td.tableblock {
+  border-width: 0 1px 1px 0;
+}
+
+/* New Table of Contents */
+.toc .toc-title {
+  font-weight: bold;
+  line-height: 1.3;
+  margin-top: 1em;
+  margin-left: 0;
+  color: #990000;
+  font-size: 115%;
+}
+
+.toc ul {
+  margin: 0;
+  padding: 0;
+}
+
+.toc ul li {
+  line-height: 1.2;
+  list-style-type: none;
+}
+
+.toc li {
+  margin: 0;
+}
+
+.toc ul li p {
+  font-weight: bold;
+  margin: 0.4em 0 0 0;
+}
+/*:not(:first-child)*/
+.toc ul li ul {
+  margin-left: 40px !important;
+}

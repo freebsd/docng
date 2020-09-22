@@ -1,0 +1,285 @@
+# Global
+[freebsd]
+other = "FreeBSD"
+
+[freebsdProject]
+other = "The FreeBSD Project"
+
+[freebsdPowerServe]
+other = "FreeBSD The Power to Serve"
+
+[freebsdFoundation]
+other = "The FreeBSD Foundation"
+
+[languages]
+other = "Languages"
+
+[articles]
+other = "Articles"
+
+[books]
+other = "Books"
+
+[trademarks]
+other = "trademarks"
+
+[last-modified]
+other = "Last modified on"
+
+[by]
+other = "par"
+
+# Header
+[donate]
+other = "Donate to FreeBSD"
+
+[search]
+other = "Search"
+
+# Navigation
+[home]
+other = "Home"
+
+[about]
+other = "About"
+
+[introduction]
+other = "Introduction"
+
+[features]
+other = "Features"
+
+[advocacy]
+other = "Advocacy"
+
+[marketing]
+other = "Marketing"
+
+[privacyPolicy]
+other = "Privacy Policy"
+
+[getFreeBSD]
+other = "Get FreeBSD"
+
+[releaseInformation]
+other = "Release Information"
+
+[releaseEngineering]
+other = "Release Engineering"
+
+[documentation]
+other = "Documentation"
+
+[faq]
+other = "FAQ"
+
+[handbook]
+other = "Handbook"
+
+[porterHandbook]
+other = "Porter's Handbook"
+
+[developerHandbook]
+other = "Developer's Handbook"
+
+[manualPages]
+other = "Manual Pages"
+
+[documentationProjectPrimer]
+other = "Documentation Project Primer"
+
+[allBooksArticles]
+other = "All Books and Articles"
+
+[community]
+other = "Community"
+
+[mailingLists]
+other = "Mailing Lists"
+
+[forums]
+other = "Forums"
+
+[userGroups]
+other = "User Groups"
+
+[events]
+other = "Events"
+
+[FreeBSDJournal]
+other = "FreeBSD Journal"
+
+[QA]
+other = "Q&A (external)"
+
+[developers]
+other = "Developers"
+
+[projectIdeas]
+other = "Project Ideas"
+
+[subversionRepository]
+other = "Subversion Repository"
+
+[gitMirror]
+other = "Git Mirror"
+
+[phabricator]
+other = "Code Review (Phabricator)"
+
+[wiki]
+other = "Wiki"
+
+[CI]
+other = "Continuous Integration Service"
+
+[support]
+other = "Support"
+
+[vendors]
+other = "Vendors"
+
+[securityInformation]
+other = "Security Information"
+
+[bugReports]
+other = "Bug Reports"
+
+[submittingBugReports]
+other = "Submitting Bug Reports"
+
+[foundation]
+other = "Foundation"
+
+[monetaryDonations]
+other = "Monetary Donations"
+
+[hardwareDonations]
+other = "Hardware Donations"
+
+#404
+[notFoundTitle]
+other = "We could not find the page you requested."
+
+[notFoundDesc]
+other = "Please try your request again, use one of the links in the navigation menu, or the search box at the top of the page."
+
+# Footer
+[copyright]
+other = "All rights reserved."
+
+[trademark]
+other = "The mark FreeBSD is a registered trademark of The FreeBSD Foundation and is used by The FreeBSD Project with the permission of"
+
+[contact]
+other = "Contact"
+
+[legalNotices]
+other = "Legal Notices"
+
+# sidenav
+[mailinglists]
+other = "Mailing Lists"
+
+[usergroups]
+other = "User Groups"
+
+[FAQ]
+other = "FAQ"
+
+[man]
+other = "Manual Pages"
+
+[papers]
+other = "Presentations and Papers"
+
+[booksArticles]
+other = "Books and Articles Online"
+
+[publications]
+other = "Publications"
+
+[newbies]
+other = "For Newbies"
+
+[docproj]
+other = "Documentation Project"
+
+[archive]
+other = "Archive"
+
+[bugreports]
+other = "Bug Reports"
+
+[webresources]
+other = "Web Resources"
+
+# copyright
+[freebsd-copyright]
+other = "FreeBSD est une marque déposée de la fondation FreeBSD."
+
+[pam]
+other = "This article was written for the FreeBSD Project by ThinkSec AS and Network Associates Laboratories, the Security Research Division of Network Associates, Inc. under DARPA/SPAWAR contract N66001-01-C-8035 (“CBOSS”), as part of the DARPA CHATS research program."
+
+[coverity]
+other = "Coverity is a registered trademark; Coverity Extend, Coverity Prevent and Coverity Prevent SQS are trademarks of Coverity, Inc."
+
+[ibm]
+other = "IBM, AIX, OS/2, PowerPC, PS/2, S/390, and ThinkPad are trademarks of International Business Machines Corporation in the United States, other countries, or both."
+
+[ieee]
+other = "IEEE, POSIX, et 802 sont des marques déposées de Institute of Electrical and Electronics Engineers, Inc. aux Etats Unis."
+
+[redhat]
+other = "Red Hat, RPM, are trademarks or registered trademarks of Red Hat, Inc. in the United States and other countries."
+
+[3com]
+other = "3Com et HomeConnect sont des marques déposées de 3Com Corporation."
+
+[amd]
+other = "AMD, AMD Athlon, AMD Opteron, Athlon, Élan, Opteron, et PCnet sont des marques de Advanced Micro Devices, Inc."
+
+[adobe]
+other = "Adobe, Acrobat, Acrobat Reader, Flash and PostScript are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries."
+
+[apple]
+other = "Apple, AirPort, FireWire, Mac, Macintosh, Mac OS, Quicktime, et TrueType sont des marques d'Apple Computer, Inc., déposées aux Etats Unis et dans d'autres pays."
+
+[intel]
+other = "Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium, et Xeon sont des marques ou des marques déposées d'Intel Corporation ou de ses filiales aux Etats Unis et dans d'autres pays."
+
+[linux]
+other = "Linux est une marque déposée de Linus Torvalds."
+
+[microsoft]
+other = "Microsoft, IntelliMouse, MS-DOS, Outlook, Windows, Windows Media, et Windows NT sont soit des marques soit des marques déposées de Microsoft Corporation aux Etats Unis ou dans d'autres pays."
+
+[opengroup]
+other = "Motif, OSF/1, et UNIX sont des marques déposées et IT DialTone et The Open Group sont des marques de l'Open Group aux Etats Unis et dans d'autres pays."
+
+[qualcomm]
+other = "QUALCOMM and Eudora are registered trademarks of QUALCOMM Incorporated."
+
+[sparc]
+other = "Sparc, Sparc64, et UltraSPARC sont des marques de SPARC International, Inc aux Etats Unis et dans d'autres pays.  Les produits utilisant les marques SPARC sont basés sur une architecture développée par Sun Microsystems, Inc."
+
+[sun]
+other = "Sun, Sun Microsystems, Java, Java Virtual Machine, JDK, JRE, JSP, JVM, Netra, Solaris, StarOffice, et SunOS sont des marques ou des marques déposées de Sun Microsystems, Inc. aux Etats Unis et dans d'autres pays."
+
+[unix]
+other = "UNIX est une marque déposée de l'Open Group aux Etats Unis et dans d'autres pays."
+
+[netbsd]
+other = "NetBSD est une marque déposée de la fondation NetBSD."
+
+[realnetworks]
+other = "RealNetworks, RealPlayer, and RealAudio are the registered trademarks of RealNetworks, Inc."
+
+[oracle]
+other = "Oracle is a registered trademark of Oracle Corporation."
+
+[daemon-news]
+other = "This article was originally published in the January 2000 issue of <a class=\"link\" href=\"http://www.daemonnews.org/\">DaemonNews</a>. This version of the article may include updates from Matt and other authors to reflect changes in FreeBSD's VM implementation."
+
+[general]
+other = "Plusieurs désignations utilisées par les constructeurs et vendeurs pour distinguer leurs produits sont mentionnées comme des marques déposées.  Lorsqu'elles apparaissent dans ce document et que le projet FreeBSD est au courant de cette mention, la désignation est suivie du symbole “™” ou du symbole “®”."
