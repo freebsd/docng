@@ -1644,7 +1644,7 @@ M       /var/tmp/
 The command lists the changes between the specified snapshot (in this case `_mypool/var/tmp@my_recursive_snapshot_`) and the live file system. The first column shows the type of change:
 
 [.informaltable]
-[cols="1,1"]
+[cols="20%,80%"]
 |===
 
 |+

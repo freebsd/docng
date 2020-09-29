@@ -361,7 +361,6 @@ If moused is enabled in [.filename]#/etc/rc.conf#, additional configuration may 
 mousechar_start=3
 ....
 
-
 [.title]
 === Xorg Setup
 

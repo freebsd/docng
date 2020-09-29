@@ -137,7 +137,7 @@ Here is a sample entry from the system crontab, [.filename]#/etc/crontab#:
 # /etc/crontab - root's crontab for FreeBSD
 #
 # $FreeBSD$
-## <.>
+# <.>
 SHELL=/bin/sh
 PATH=/etc:/bin:/sbin:/usr/bin:/usr/sbin <.>
 #

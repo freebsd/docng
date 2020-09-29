@@ -225,7 +225,7 @@ To build a file which contains all available options, run the following command 
 Once the edits to the custom configuration file have been saved, the source code for the kernel can be compiled using the following steps:
 
 [.procedure]
-.Procedure: Building a Kernel
+*Procedure: Building a Kernel*
 . Change to this directory:
 +
 [source,bash]

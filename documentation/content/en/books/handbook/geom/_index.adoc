@@ -83,7 +83,9 @@ RAID0 does _not_ provide any redundancy. This means that if one disk in the arra
 The process for creating a software, GEOM-based RAID0 on a FreeBSD system using commodity disks is as follows. Once the stripe is created, refer to man:gstripe[8] for more information on how to control an existing stripe.
 
 [.procedure]
-.Procedure: Creating a Stripe of Unformatted ATA Disks
+****
+*Procedure: Creating a Stripe of Unformatted ATA Disks*
+
 . Load the [.filename]#geom_stripe.ko# module:
 +
 [source,bash]
@@ -139,6 +141,7 @@ Many numbers will glide across the screen, and after a few seconds, the process 
 ....
 # echo 'geom_stripe_load="YES"' >> /boot/loader.conf
 ....
+****
 
 [[geom-mirror]]
 [.title]
@@ -237,12 +240,12 @@ Partitions on the mirror do not have to be the same size as those on the existin
 # gpart add -t freebsd-swap -a 4k -s 4g mirror/gm0s1
 # gpart add -t freebsd-ufs  -a 4k -s 2g mirror/gm0s1
 # gpart add -t freebsd-ufs  -a 4k -s 1g mirror/gm0s1
-# gpart add -t freebsd-ufs  -a 4k       mirror/gm0s1
+# gpart add -t freebsd-ufs  -a 4k mirror/gm0s1
 # gpart show mirror/gm0s1
 =>        0  156301299  mirror/gm0s1  BSD  (74G)
           0          2                      - free -  (1.0k)
           2    4194304                   1  freebsd-ufs  (2.0G)
-    4194306    8388608                   2  freebsd-swap  (4.0G)
+    4194306    8388608                   2  freebsd-swap (4.0G)
    12582914    4194304                   4  freebsd-ufs  (2.0G)
    16777218    2097152                   5  freebsd-ufs  (1.0G)
    18874370  137426928                   6  freebsd-ufs  (65G)
@@ -326,8 +329,8 @@ Check the media size of the original disk with `diskinfo`:
 ....
 # diskinfo -v ada0 | head -n3
 /dev/ada0
-	512             # sectorsize
-	1000204821504   # mediasize in bytes (931G)
+        512             # sectorsize
+        1000204821504   # mediasize in bytes (931G)
 ....
 
 Create a mirror on the new disk. To make certain that the mirror capacity is not any larger than the original [.filename]#ada0# drive, man:gnop[8] is used to create a fake drive of the exact same size. This drive does not store any data, but is used only to limit the size of the mirror. When man:gmirror[8] creates the mirror, it will restrict the capacity to the size of [.filename]#gzero.nop#, even if the new [.filename]#ada1# drive has more space. Note that the _1000204821504_ in the second line is equal to [.filename]#ada0#'s media size as shown by `diskinfo` above.
@@ -525,7 +528,7 @@ Synchronization between the two disks will start immediately. Use `gmirror statu
 ....
 # gmirror status
       Name    Status  Components
-mirror/gm0  DEGRADED  ada1 (ACTIVE)
+girror/gm0  DEGRADED  ada1 (ACTIVE)
                       ada0 (SYNCHRONIZING, 64%)
 ....
 

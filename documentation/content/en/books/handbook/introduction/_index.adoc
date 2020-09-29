@@ -198,7 +198,7 @@ link:{contributors}[The FreeBSD Contributors List] is a long and growing one, so
 +
 Providing code is not the only way of contributing to the project; for a more complete list of things that need doing, please refer to the link:https://www.FreeBSD.org/[FreeBSD Project web site].
 
-In summary, our development model is organized as a loose set of concentric circles. The centralized model is designed for the convenience of the _users_ of FreeBSD, who are provided with an easy way of tracking one central code base, not to keep potential contributors out! Our desire is to present a stable operating system with a large set of coherent crossref:ports[ports,	application programs] that the users can easily install and use - this model works very well in accomplishing that.
+In summary, our development model is organized as a loose set of concentric circles. The centralized model is designed for the convenience of the _users_ of FreeBSD, who are provided with an easy way of tracking one central code base, not to keep potential contributors out! Our desire is to present a stable operating system with a large set of coherent crossref:ports[ports,application programs] that the users can easily install and use - this model works very well in accomplishing that.
 
 All we ask of those who would join us as FreeBSD developers is some of the same dedication its current people have to its continued success!
 

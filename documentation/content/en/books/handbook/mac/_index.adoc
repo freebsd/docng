@@ -62,7 +62,6 @@ Before reading this chapter, you should:
 * Understand UNIX(R) and FreeBSD basics (crossref:basics[basics,FreeBSD Basics]).
 * Have some familiarity with security and how it pertains to FreeBSD (crossref:security[security,Security]).
 
-
 [.warning]
 ====
 [.admontitle]*Warning:* +

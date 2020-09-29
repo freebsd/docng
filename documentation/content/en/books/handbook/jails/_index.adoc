@@ -661,6 +661,7 @@ ezjail_enable="YES"
 With ezjail installed, the basejail directory structure can be created and populated. This step is only needed once on the jail host computer.
 
 In both of these examples, `-p` causes the ports tree to be retrieved with man:portsnap[8] into the basejail. That single copy of the ports directory will be shared by all the jails. Using a separate copy of the ports directory for jails isolates them from the host. The ezjailFAQ explains in more detail: http://erdgeist.org/arts/software/ezjail/#FAQ[].
+
 [[jails-ezjail-initialsetup-procedure]]
 [.procedure]
 

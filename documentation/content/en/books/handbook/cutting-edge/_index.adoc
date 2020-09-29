@@ -705,6 +705,7 @@ The update process can take some time if the directory has not been updated rece
 *Obtaining the Source:* +
 
 If the output says `'/usr/src' is not a working copy`, the files there are missing or were installed with a different method. A new checkout of the source is required.
+
 [[updating-src-obtaining-src-repopath]]
 .FreeBSD Versions and Repository Paths
 [cols="10%,10%,80%", options="header"]

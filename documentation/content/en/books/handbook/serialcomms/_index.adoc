@@ -1,6 +1,6 @@
 ---
 title: Chapter 26. Serial Communications
-part: IV. Network Communication
+part: Part IV. Network Communication
 prev: books/handbook/partiv
 next: books/handbook/ppp-and-slip
 ---

@@ -101,9 +101,9 @@ The boot manager code in the MBR is sometimes referred to as _stage zero_ of the
 The MBR installed by the FreeBSD installer is based on [.filename]#/boot/boot0#. The size and capability of boot0 is restricted to 446 bytes due to the slice table and `0x55AA` identifier at the end of the MBR. If boot0 and multiple operating systems are installed, a message similar to this example will be displayed at boot time:
 
 [[boot-boot0-example]]
+.[.filename]#boot0# Screenshot
 [example]
 ====
-.[.filename]#boot0# Screenshot
 
 [source,bash]
 ....
@@ -157,14 +157,12 @@ To replace the installed [.filename]#boot1# and [.filename]#boot2#, use `bsdlabe
 # bsdlabel -B diskslice
 ....
 
-
 [.warning]
 ====
 [.admontitle]*Warning:* +
 
 If just the disk name is used, such as [.filename]#ad0#, `bsdlabel` will create the disk in "dangerously dedicated mode", without slices. This is probably not the desired action, so double check the _diskslice_ before pressing kbd:[Return].
 ====
-
 
 [[boot-loader]]
 [.title]
@@ -179,9 +177,10 @@ During initialization, loader will probe for a console and for disks, and figure
 The loader will then read [.filename]#/boot/loader.rc#, which by default reads in [.filename]#/boot/defaults/loader.conf# which sets reasonable defaults for variables and reads [.filename]#/boot/loader.conf# for local changes to those variables. [.filename]#loader.rc# then acts on these variables, loading whichever modules and kernel are selected.
 
 Finally, by default, loader issues a 10 second wait for key presses, and boots the kernel if it is not interrupted. If interrupted, the user is presented with a prompt which understands the command set, where the user may adjust variables, unload all modules, load modules, and then finally boot or reboot. <<boot-loader-commands>> lists the most commonly used loader commands. For a complete discussion of all available commands, refer to man:loader[8].
+
 [[boot-loader-commands]]
 .Loader Built-In Commands
-[cols="1,1", frame="none", options="header"]
+[cols="20%,80%", frame="none", options="header"]
 |===
 | Variable
 | Description
@@ -189,37 +188,37 @@ Finally, by default, loader issues a 10 second wait for key presses, and boots t
 |autoboot _seconds_
 |Proceeds to boot the kernel if not interrupted within the time span given, in seconds. It displays a countdown, and the default time span is 10 seconds.
 
-|boot ``_-options_````_kernelname_``
+|boot [`-options`] [`kernelname`]
 |Immediately proceeds to boot the kernel, with any specified options or kernel name. Providing a kernel name on the command-line is only applicable after an `unload` has been issued. Otherwise, the previously-loaded kernel will be used. If _kernelname_ is not qualified, it will be searched under _/boot/kernel_ and _/boot/modules_.
 
 |boot-conf
 |Goes through the same automatic configuration of modules based on specified variables, most commonly `kernel`. This only makes sense if `unload` is used first, before changing some variables.
 
-|help `_topic_`
+|help [`_topic_`]
 |Shows help messages read from [.filename]#/boot/loader.help#. If the topic given is `index`, the list of available topics is displayed.
 
-|include _filename_ ...
+|include `_filename_` ...
 |Reads the specified file and interprets it line by line. An error immediately stops the `include`.
 
-|load ``-t _type_``_filename_
+|load [-t ``_type_``] `_filename_`
 |Loads the kernel, kernel module, or file of the type given, with the specified filename. Any arguments after _filename_ are passed to the file. If _filename_ is not qualified, it will be searched under _/boot/kernel_ and _/boot/modules_.
 
-|ls ``-l````_path_``
+|ls [-l] [``_path_``]
 |Displays a listing of files in the given path, or the root directory, if the path is not specified. If `-l` is specified, file sizes will also be shown.
 
-|lsdev `-v`
+|lsdev [`-v`]
 |Lists all of the devices from which it may be possible to load modules. If `-v` is specified, more details are printed.
 
-|lsmod `-v`
+|lsmod [`-v`]
 |Displays loaded modules. If `-v` is specified, more details are shown.
 
-|more _filename_
+|more `_filename_`
 |Displays the files specified, with a pause at each `LINES` displayed.
 
 |reboot
 |Immediately reboots the system.
 
-|set _variable_, set _variable_=_value_
+|set `_variable_`, set `_variable=value_`
 |Sets the specified environment variables.
 
 |unload
@@ -264,9 +263,10 @@ To load an automated kernel configuration script:
 === Last Stage
 
 Once the kernel is loaded by either loader or by boot2, which bypasses loader, it examines any boot flags and adjusts its behavior as necessary. <<boot-kernel>> lists the commonly used boot flags. Refer to man:boot[8] for more information on the other boot flags.
+
 [[boot-kernel]]
 .Kernel Interaction During Boot
-[cols="1,1", frame="none", options="header"]
+[cols="20%,80%", frame="none", options="header"]
 |===
 | Option
 | Description
@@ -308,9 +308,10 @@ While single-user mode is useful for repairing a system, it poses a security ris
 If the system `console` is changed to `insecure` in [.filename]#/etc/ttys#, the system will first prompt for the `root` password before initiating single-user mode. This adds a measure of security while removing the ability to reset the `root` password when it is unknown.
 
 [[boot-insecure-console]]
+.Configuring an Insecure Console in [.filename]#/etc/ttys#
 [example]
 ====
-.Configuring an Insecure Console in [.filename]#/etc/ttys#
+
 [.programlisting]
 ....
 # name  getty                           type    status          comments

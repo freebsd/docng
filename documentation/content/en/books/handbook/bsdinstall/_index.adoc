@@ -295,7 +295,7 @@ image::bsdinstall-newboot-loader-menu.png[]
 By default, the menu will wait ten seconds for user input before booting into the FreeBSD installer or, if FreeBSD is already installed, before booting into FreeBSD. To pause the boot timer in order to review the selections, press kbd:[Space]. To select an option, press its highlighted number, character, or key. The following options are available.
 
 * `Boot Multi User`: This will continue the FreeBSD boot process. If the boot timer has been paused, press kbd:[1], upper- or lower-case kbd:[B], or kbd:[Enter].
-* `Boot Single User`: This mode can be used to fix an existing FreeBSD installation as described in <<boot/#boot-singleuser, Single-User Mode>>. Press kbd:[2] or the upper- or lower-case kbd:[S] to enter this mode.
+* `Boot Single User`: This mode can be used to fix an existing FreeBSD installation as described in crossref:boot[boot-singleuser,“Single-User Mode”]. Press kbd:[2] or the upper- or lower-case kbd:[S] to enter this mode.
 * `Escape to loader prompt`: This will boot the system into a repair prompt that contains a limited number of low-level commands. This prompt is described in crossref:boot[boot-loader,“Stage Three”]. Press kbd:[3] or kbd:[Esc] to boot into this prompt.
 * `Reboot`: Reboots the system.
 * `Kernel`: Loads a different kernel.

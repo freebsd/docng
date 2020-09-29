@@ -114,15 +114,9 @@ The remainder of this chapter explains how to use packages and ports to install 
 FreeBSD's list of available applications is growing all the time. There are a number of ways to find software to install:
 
 * The FreeBSD web site maintains an up-to-date searchable list of all the available applications, at link:https://www.FreeBSD.org/ports/[https://www.FreeBSD.org/ports/]. The ports can be searched by application name or by software category.
-*
-+ 
-Dan Langille maintains http://www.FreshPorts.org/[FreshPorts.org] which provides a comprehensive search utility and also tracks changes to the applications in the Ports Collection. Registered users can create a customized watch list in order to receive an automated email when their watched ports are updated.
-*
-+ 
-If finding a particular application becomes challenging, try searching a site like http://www.sourceforge.net/[SourceForge.net] or http://www.github.com/[GitHub.com] then check back at the link:https://www.FreeBSD.org/ports/[FreeBSD site] to see if the application has been ported.
-*
-+ 
-To search the binary package repository for an application:
+* Dan Langille maintains http://www.FreshPorts.org/[FreshPorts.org] which provides a comprehensive search utility and also tracks changes to the applications in the Ports Collection. Registered users can create a customized watch list in order to receive an automated email when their watched ports are updated.
+* If finding a particular application becomes challenging, try searching a site like http://www.sourceforge.net/[SourceForge.net] or http://www.github.com/[GitHub.com] then check back at the link:https://www.FreeBSD.org/ports/[FreeBSD site] to see if the application has been ported.
+* To search the binary package repository for an application:
 +
 [source,bash]
 ....
@@ -1174,7 +1168,7 @@ Regardless of whether the software was installed from a binary package or port, 
 
 * Most applications install at least one default configuration file in [.filename]#/usr/local/etc#. In cases where an application has a large number of configuration files, a subdirectory will be created to hold them. Often, sample configuration files are installed which end with a suffix such as [.filename]#.sample#. The configuration files should be reviewed and possibly edited to meet the system's needs. To edit a sample file, first copy it without the [.filename]#.sample# extension.
 * Applications which provide documentation will install it into [.filename]#/usr/local/share/doc# and many applications also install manual pages. This documentation should be consulted before continuing.
-* Some applications run services which must be added to [.filename]#/etc/rc.conf# before starting the application. These applications usually install a startup script in [.filename]#/usr/local/etc/rc.d#. See <<configtuning-starting-services,Starting Services>> for more information.
+* Some applications run services which must be added to [.filename]#/etc/rc.conf# before starting the application. These applications usually install a startup script in [.filename]#/usr/local/etc/rc.d#. See crossref:config[configtuning-starting-services,Starting Services] for more information.
 +
 [.note]
 ====

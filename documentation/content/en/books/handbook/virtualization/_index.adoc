@@ -61,7 +61,6 @@ Before reading this chapter, you should:
 * Know how to crossref:advanced-networking[advanced-networking,set up a network connection].
 * Know how to crossref:ports[ports,install additional third-party software].
 
-
 [[virtualization-guest-parallels]]
 [.title]
 == FreeBSD as a Guest on Parallels for Mac OS(R) X
